@@ -8,8 +8,8 @@ export default function Newsletter() {
         
         {/* Masthead */}
         <header className="mb-12 text-center">
-          <h1 className="font-serif text-5xl tracking-tight text-[#B22E21] mb-4 font-bold">
-            NO BAD NEWS
+          <h1 className="font-serif text-5xl tracking-tight mb-4 font-bold">
+            <span className="text-[#B22E21]">NO BAD</span> <span className="text-[#1C1C1C]">NEWS</span>
           </h1>
           <div className="flex items-center justify-center gap-4 text-[#1C1C1C] font-sans text-sm tracking-wide uppercase border-y border-[rgba(0,0,0,0.06)] py-3">
             <span>Issue 001</span>
