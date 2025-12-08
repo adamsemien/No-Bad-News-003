@@ -1,0 +1,198 @@
+Build a luxury editorial-style **Gmail-safe newsletter mockup** called:
+
+**NO BAD NEWS - Issue 001**
+
+This is a DESKTOP-FIRST EMAIL NEWSLETTER DESIGN (not a website). It must render cleanly inside Gmail and ActiveCampaign.
+
+---
+
+## BRAND COLORS (USE EXACT):
+
+* Background (Ivory / Cream): **#F5EFE8**
+* Primary Text (Ink): **#1C1C1C**
+* Accent (NBC Red): **#B22E21**
+* Dark Neutral: **#2A1F1A**
+* Divider Lines: **rgba(0,0,0,0.06)**
+
+---
+
+## TYPOGRAPHY STYLE:
+
+* Newsletter Title: High-contrast **serif**
+* Section Headers: Clean **sans-serif**, slightly tracked
+* Body Copy: Editorial serif or refined sans-serif
+* No playful fonts. This should feel **New Yorker × Luxury Brand × Modern Editorial**
+
+---
+
+## LAYOUT RULES:
+
+* NO NAVIGATION BAR
+* NO HERO IMAGE
+* Start with:
+
+  * “NO BAD NEWS” masthead
+  * Issue number + date
+  * Then TL;DR block
+* One column
+* Wide margins
+* Strong vertical spacing
+* Desktop-first but Gmail responsive
+
+---
+
+## IMAGE RULE:
+
+* Only these sections contain images:
+
+  * ✅ No Bad Music
+  * ✅ No Bad Design
+* All other sections are text-only
+
+---
+
+## BUTTON STYLE:
+
+* Background: **#B22E21**
+* Text: White
+* Rounded edges
+* No shadows
+
+---
+
+## IMPORT THIS FULL ISSUE CONTENT:
+
+NO BAD NEWS
+Issue 001 - Friday Morning
+
+---
+
+**TL;DR - This Week in No Bad News**
+
+* 🍲 My family’s Cajun gumbo recipe - finally on video
+* 🕯 A hosting move that instantly upgrades conversation
+* 🥃 A Rockefeller Center flex you can steal at the bar
+* 🎶 Frank Ocean “Strawberry Swing” - still undefeated
+* 🎨 A brand that turns desktop icons into real life
+
+---
+
+**Editor’s Note - Adam’s Corner**
+
+I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. Goosebumps have always been the goal.
+
+I love beautiful things. I love music, food, people in their element. I love discovering something special and sharing it with the right person at the right time - that look on their face when you know you just showed them something they didn’t know they needed.
+
+That’s why Chloe and I built No Bad Company. And this - No Bad News - is the extension of that instinct. A weekly drop of what I’m paying attention to, who I’m learning from, and the details I think are worth your time.
+
+I’m not here to perform. I’m here to share. Read it. Forward it. Or reply and tell me what I should be chasing next.
+
+---
+
+**No Bad Food - My Family Gumbo**
+
+I come from a Cajun family of cooks and restaurant owners. My family ran a BBQ spot in Houston called Lockwood Inn from 1928 to 1996 before it burned down. My grandmother was a Cajun caterer. My mom made the best gumbo I’ve ever had - and everyone who’s ever eaten it agrees.
+
+This is the gumbo I grew up on. The one people still ask about years later. The one that shows up at holidays, late nights, and when it really matters.
+
+I finally filmed it.
+
+* 🎥 Full video: [https://www.youtube.com/shorts/TftOIelM-j8](https://www.youtube.com/shorts/TftOIelM-j8)
+* 📝 Written recipe + ingredients: [RECIPE LINK HERE]
+
+This isn’t a “twist” on gumbo. It’s the real thing. Take your time with it.
+
+---
+
+**No Bad Hosting**
+
+The fastest way to level up any conversation at a party is to stop asking, “What do you do?”
+
+Try this instead:
+
+* “What keeps you busy during the day?”
+
+It’s broader. It’s softer. And it lets people answer however they want - career, creative projects, family, fitness, building something on the side. The energy shifts instantly.
+
+Work can feel like a label.
+Busy feels like a story.
+
+---
+
+**Cocktail Bites**
+
+They lit the Rockefeller Center Christmas tree this week - star and all. That star on top?
+
+* It weighs over 900 pounds
+* It’s covered in millions of crystals
+* And it’s custom-engineered so the wind doesn’t rip it off the building
+
+It looks effortless.
+It absolutely is not.
+
+---
+
+## ✅ NO BAD MUSIC (WITH LIVE IMAGE)
+
+<img src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" width="100%" style="border-radius:12px; margin:24px 0;" />
+
+**No Bad Music - Frank Ocean, Again**
+
+Where the hell are you, Frank?
+Seriously. You disappear like this every few years and just leave us hanging.
+
+But this week I went back to “Strawberry Swing” by Frank Ocean off Nostalgia, Ultra, and yeah… it still hits. Hard.
+
+* 🎶 Listen here: [https://www.youtube.com/watch?v=G7wcRZWRDdw](https://www.youtube.com/watch?v=G7wcRZWRDdw)
+* Mood: reflective, wide-open, slightly unraveled
+
+---
+
+## ✅ NO BAD DESIGN (WITH LIVE IMAGE)
+
+<img src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" width="100%" style="border-radius:12px; margin:24px 0;" />
+
+**No Bad Design**
+
+This week’s obsession is Nikolas Bentel Studio.
+
+He pulls digital objects into the real world - desktop folders, UI windows, system icons - and turns them into physical products. Laptop cases that look like software panels. Bags that feel like pop-ups.
+
+It works because it does three things at once:
+
+* Feels stupid simple
+* Looks insanely clean
+* Quietly messes with your sense of reality
+
+It doesn’t try to feel futuristic.
+It just shifts the world one notch sideways.
+
+* Studio: [https://www.nikolasbentelstudio.com](https://www.nikolasbentelstudio.com)
+* Project: [https://www.nikolasbentelstudio.com/projects/1bttwqzx](https://www.nikolasbentelstudio.com/projects/1bttwqzx)
+
+---
+
+**The Soft Close**
+
+That’s it for this week.
+Same time next Friday.
+
+---
+
+FOOTER:
+Centered red button:
+**Join The Red List**
+
+Tiny muted text below:
+“No Bad Company - Curated, not crowded.”
+
+---
+
+OUTPUT:
+
+* Gmail-safe HTML
+* Desktop email preview
+* Screenshot-ready
+* No JavaScript
+* No animations
+* One-column editorial luxury layout
