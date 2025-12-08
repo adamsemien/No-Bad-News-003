@@ -7,41 +7,41 @@ export default function Newsletter() {
       <div className="w-full max-w-[640px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-16 text-center">
-          <h1 className="font-serif text-5xl tracking-wider mb-6 font-extrabold text-[#1C1C1C]">
+        <header className="mb-20 text-center">
+          <h1 className="font-serif text-5xl tracking-widest mb-8 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
-          <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase border-y border-[rgba(0,0,0,0.06)] py-3">
-            <span>Issue 001</span>
-            <span>•</span>
-            <span>Friday Morning</span>
+          <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase border-y border-[rgba(0,0,0,0.06)] py-3 font-light">
+            <span className="opacity-80">Issue 001</span>
+            <span className="opacity-40">•</span>
+            <span className="opacity-80">Friday Morning</span>
           </div>
         </header>
 
         {/* TL;DR Section */}
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-8"></div>
         <section className="mb-8">
-          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-6">
+          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-8">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-4 font-body text-[#1C1C1C] leading-relaxed">
-            <li className="flex gap-3">
+          <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
+            <li className="flex gap-4">
               <span className="shrink-0">🍲</span>
               <span>My family’s Cajun gumbo recipe - finally on video</span>
             </li>
-            <li className="flex gap-3">
+            <li className="flex gap-4">
               <span className="shrink-0">🕯</span>
               <span>A hosting move that instantly upgrades conversation</span>
             </li>
-            <li className="flex gap-3">
+            <li className="flex gap-4">
               <span className="shrink-0">🥃</span>
               <span>A Rockefeller Center flex you can steal at the bar</span>
             </li>
-            <li className="flex gap-3">
+            <li className="flex gap-4">
               <span className="shrink-0">🎶</span>
               <span>Frank Ocean “Strawberry Swing” - still undefeated</span>
             </li>
-            <li className="flex gap-3">
+            <li className="flex gap-4">
               <span className="shrink-0">🎨</span>
               <span>A brand that turns desktop icons into real life</span>
             </li>
@@ -54,14 +54,14 @@ export default function Newsletter() {
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Editor’s Note - Adam’s Corner
           </h2>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-8">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg">
+            <p className="mb-10">
               I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
             </p>
-            <p className="mb-8">
+            <p className="mb-10">
               I love beautiful things. I love music, food, people in their element. I love discovering something special and sharing it with the right person at the right time - that look on their face when you know you just showed them something they didn’t know they needed.
             </p>
-            <p className="mb-8">
+            <p className="mb-10">
               That’s why Chloe and I built No Bad Company. And this - No Bad News - is the extension of that instinct. A weekly drop of what I’m paying attention to, who I’m learning from, and the details I think are worth your time.
             </p>
             <p>
@@ -87,9 +87,9 @@ export default function Newsletter() {
             <p className="mb-10">
               I finally filmed it.
             </p>
-            <ul className="list-none space-y-4 mb-8 pl-0">
-              <li>🎥 Full video: <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#B22E21] font-medium hover:text-[#96261c] transition-colors ml-1">Watch on YouTube</a></li>
-              <li>📝 Written recipe + ingredients: <span className="text-[#B22E21] font-medium hover:text-[#96261c] cursor-pointer ml-1">RECIPE LINK HERE</span></li>
+            <ul className="list-none space-y-5 mb-8 pl-0">
+              <li>🎥 Full video: <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#B22E21] font-medium hover:text-[#96261c] transition-colors ml-1 tracking-wide">Watch on YouTube</a></li>
+              <li>📝 Written recipe + ingredients: <span className="text-[#B22E21] font-medium hover:text-[#96261c] cursor-pointer ml-1 tracking-wide">RECIPE LINK HERE</span></li>
             </ul>
             <p>
               This isn’t a “twist” on gumbo. It’s the real thing. Take your time with it.
@@ -133,15 +133,15 @@ export default function Newsletter() {
             <p className="mb-8">
               They lit the Rockefeller Center Christmas tree this week - star and all. That star on top?
             </p>
-            <ul className="list-disc pl-5 mb-10 space-y-4 marker:text-[#B22E21]">
+            <ul className="list-disc pl-5 mb-12 space-y-6 marker:text-[#B22E21] font-light">
               <li>It weighs over 900 pounds</li>
               <li>It’s covered in millions of crystals</li>
               <li>And it’s custom-engineered so the wind doesn’t rip it off the building</li>
             </ul>
-            <p className="mt-8">
-              It looks effortless.<br/>
-              It absolutely is not.
-            </p>
+            <div className="mt-10 space-y-2">
+              <p className="font-medium">It looks effortless.</p>
+              <p className="font-medium">It absolutely is not.</p>
+            </div>
           </div>
         </section>
 
@@ -158,7 +158,7 @@ export default function Newsletter() {
               <img 
                 src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" 
                 alt="Frank Ocean Nostalgia Ultra" 
-                className="w-full rounded-[4px] object-cover aspect-square shadow-sm"
+                className="w-full rounded-sm object-cover aspect-square"
               />
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function Newsletter() {
           </div>
 
           <div className="flex justify-center">
-             <a href="https://www.youtube.com/watch?v=G7wcRZWRDdw" className="bg-[#B22E21] text-white font-sans font-medium py-3 px-8 rounded-lg hover:bg-[#96261c] transition-colors no-underline">
+             <a href="https://www.youtube.com/watch?v=G7wcRZWRDdw" className="bg-[#B22E21] text-white font-sans font-medium py-3 px-8 rounded-[4px] hover:bg-[#96261c] transition-colors no-underline tracking-wide">
                Listen on YouTube
              </a>
           </div>
@@ -196,7 +196,7 @@ export default function Newsletter() {
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
                 alt="Nikolas Bentel Studio Design" 
-                className="w-full rounded-[4px] object-cover aspect-square shadow-sm"
+                className="w-full rounded-sm object-cover aspect-square"
               />
             </div>
           </div>
@@ -220,7 +220,7 @@ export default function Newsletter() {
               It doesn’t try to feel futuristic.<br/>
               It just shifts the world one notch sideways.
             </p>
-            <ul className="list-none space-y-2 pl-0 mt-8">
+            <ul className="list-none space-y-2 pl-0 mt-8 text-center sm:text-left">
               <li>Studio: <a href="https://www.nikolasbentelstudio.com" className="text-[#1C1C1C] hover:text-[#B22E21] underline decoration-[rgba(0,0,0,0.1)] underline-offset-4 transition-colors">nikolasbentelstudio.com</a></li>
               <li>Project: <a href="https://www.nikolasbentelstudio.com/projects/1bttwqzx" className="text-[#1C1C1C] hover:text-[#B22E21] underline decoration-[rgba(0,0,0,0.1)] underline-offset-4 transition-colors">View Project</a></li>
             </ul>
@@ -231,7 +231,7 @@ export default function Newsletter() {
 
         {/* Soft Close */}
         <section className="mb-32 mt-16 text-center">
-          <h2 className="font-sans text-2xl font-bold tracking-tight text-[#B22E21] mb-6">
+          <h2 className="font-sans text-xl font-medium tracking-wide text-[#1C1C1C]/80 mb-6">
             The Soft Close
           </h2>
           <p className="font-body text-lg text-[#1C1C1C] leading-loose">
@@ -242,7 +242,7 @@ export default function Newsletter() {
 
         {/* Footer */}
         <footer className="text-center pb-20">
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-12 rounded-full mb-10 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-wide">
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-12 rounded-md mb-10 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-wide shadow-none">
             Join The Red List
           </button>
           
