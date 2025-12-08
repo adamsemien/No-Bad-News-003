@@ -8,7 +8,7 @@ export default function Newsletter() {
         
         {/* Masthead */}
         <header className="mb-12 text-center">
-          <h1 className="font-serif text-5xl tracking-tight text-[#1C1C1C] mb-4 font-bold">
+          <h1 className="font-serif text-5xl tracking-tight text-[#B22E21] mb-4 font-bold">
             NO BAD NEWS
           </h1>
           <div className="flex items-center justify-center gap-4 text-[#1C1C1C] font-sans text-sm tracking-wide uppercase border-y border-[rgba(0,0,0,0.06)] py-3">
@@ -20,7 +20,7 @@ export default function Newsletter() {
 
         {/* TL;DR Section */}
         <section className="mb-16">
-          <h2 className="font-sans text-xs font-bold tracking-widest text-[#2A1F1A] uppercase mb-6">
+          <h2 className="font-sans text-xs font-bold tracking-widest text-[#B22E21] uppercase mb-6">
             TL;DR - This Week in No Bad News
           </h2>
           <ul className="space-y-3 font-body text-[#1C1C1C] leading-relaxed">
@@ -51,7 +51,7 @@ export default function Newsletter() {
 
         {/* Editor's Note */}
         <section className="mb-16">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Editor’s Note - Adam’s Corner
           </h2>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -74,7 +74,7 @@ export default function Newsletter() {
 
         {/* No Bad Food */}
         <section className="mb-16">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             No Bad Food - My Family Gumbo
           </h2>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -101,7 +101,7 @@ export default function Newsletter() {
 
         {/* No Bad Hosting */}
         <section className="mb-16">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             No Bad Hosting
           </h2>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -126,7 +126,7 @@ export default function Newsletter() {
 
         {/* Cocktail Bites */}
         <section className="mb-16">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Cocktail Bites
           </h2>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -149,8 +149,8 @@ export default function Newsletter() {
 
         {/* No Bad Music */}
         <section className="mb-16">
-          <h2 className="flex items-center gap-2 font-sans text-xs font-bold tracking-widest text-[#B22E21] uppercase mb-6">
-            <span className="text-lg">✅</span> NO BAD MUSIC
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+            No Bad Music - Frank Ocean “Strawberry Swing”
           </h2>
           
           <div className="mb-8">
@@ -160,10 +160,6 @@ export default function Newsletter() {
               className="w-full rounded-[12px] object-cover aspect-square sm:aspect-auto"
             />
           </div>
-
-          <h3 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-4">
-            No Bad Music - Frank Ocean, Again
-          </h3>
           
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-6">
@@ -184,8 +180,8 @@ export default function Newsletter() {
 
         {/* No Bad Design */}
         <section className="mb-16">
-          <h2 className="flex items-center gap-2 font-sans text-xs font-bold tracking-widest text-[#B22E21] uppercase mb-6">
-            <span className="text-lg">✅</span> NO BAD DESIGN
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+            No Bad Design
           </h2>
           
           <div className="mb-8">
@@ -195,10 +191,6 @@ export default function Newsletter() {
               className="w-full rounded-[12px] object-cover"
             />
           </div>
-
-          <h3 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-4">
-            No Bad Design
-          </h3>
           
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-6">
@@ -230,7 +222,7 @@ export default function Newsletter() {
 
         {/* Soft Close */}
         <section className="mb-24 text-center">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#1C1C1C] mb-4">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-4">
             The Soft Close
           </h2>
           <p className="font-body text-[#1C1C1C] leading-loose">
