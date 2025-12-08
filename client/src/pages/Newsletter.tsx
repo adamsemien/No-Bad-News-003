@@ -51,10 +51,10 @@ export default function Newsletter() {
 
         {/* Editor's Note */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             Editor’s Note - Adam’s Corner
           </h2>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg mt-6">
             <p className="mb-10">
               I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
             </p>
@@ -74,9 +74,12 @@ export default function Newsletter() {
 
         {/* No Bad Food */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
-            No Bad Food - My Family Gumbo
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            No Bad Food
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+            Recipes, lineage, and things worth passing down.
+          </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
               I come from a Cajun family of cooks and restaurant owners. My family ran a BBQ spot in Houston called Lockwood Inn from 1928 to 1996 before it burned down. My grandmother was a Cajun caterer. My mom made the best gumbo I’ve ever had - and everyone who’s ever eaten it agrees.
@@ -97,13 +100,23 @@ export default function Newsletter() {
           </div>
         </section>
 
+        {/* Sponsor Slot 1 */}
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="border border-[rgba(0,0,0,0.06)] py-8 px-4 text-center mb-12">
+          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40">
+            Presented with support from a future brand partner
+          </p>
+        </div>
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Hosting */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Hosting
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+            Rules, moves, and social leverage for real-world rooms.
+          </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
               The fastest way to level up any conversation at a party is to stop asking, “What do you do?”
@@ -124,11 +137,14 @@ export default function Newsletter() {
 
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
-        {/* Cocktail Bites */}
+        {/* No Bad Snacks */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
-            Cocktail Bites
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            No Bad Snacks
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+            Small facts that travel well at the bar.
+          </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
               They lit the Rockefeller Center Christmas tree this week - star and all. That star on top?
@@ -149,9 +165,12 @@ export default function Newsletter() {
 
         {/* No Bad Music */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-12">
-            No Bad Music - Frank Ocean “Strawberry Swing”
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            No Bad Music
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
+            One song, no skips.
+          </p>
           
           <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[400px]">
@@ -183,13 +202,23 @@ export default function Newsletter() {
           </div>
         </section>
 
+        {/* Sponsor Slot 2 */}
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="border border-[rgba(0,0,0,0.06)] py-8 px-4 text-center mb-12">
+          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40">
+            Presented with support from a future brand partner
+          </p>
+        </div>
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Design */}
         <section className="mb-16 pt-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-12">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Design
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
+            Objects and ideas bending reality.
+          </p>
           
           <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[400px]">
@@ -229,11 +258,31 @@ export default function Newsletter() {
 
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
-        {/* Soft Close */}
-        <section className="mb-32 mt-16 text-center">
-          <h2 className="font-sans text-xl font-medium tracking-wide text-[#1C1C1C]/80 mb-6">
-            The Soft Close
+        {/* No Bad Company - Community Spotlight */}
+        <section className="mb-16 pt-4">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            No Bad Company
           </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+            People from our world doing what they were clearly put here to do.
+          </p>
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+            <p>
+              Community spotlight coming here. This section highlights founders, hosts, builders, creatives, and operators from inside our world.
+            </p>
+          </div>
+        </section>
+
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+
+        {/* Today's Thought (Sign-off) */}
+        <section className="mb-32 mt-16 text-center">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            Today’s Thought
+          </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+            A final sentence to sit with.
+          </p>
           <p className="font-body text-lg text-[#1C1C1C] leading-loose">
             That’s it for this week.<br/>
             Same time next Friday.
@@ -247,7 +296,7 @@ export default function Newsletter() {
           </button>
           
           <p className="font-sans text-xs text-[#2A1F1A]/50 tracking-wide uppercase">
-            “No Bad Company - Curated, not crowded.”
+            “No Bad Company - for stories that need to be told”
           </p>
         </footer>
 
