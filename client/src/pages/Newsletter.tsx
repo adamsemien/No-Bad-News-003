@@ -271,8 +271,17 @@ export default function Newsletter() {
           </div>
 
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+            <p className="mb-8">
+              We’ve been doing this together since high school - Houston suburb kids who watched our neighborhood quietly turn out giants (shout out Mo City - 281). Somewhere between then and now, we learned that hosting isn’t about throwing parties. It’s about building rooms where people feel like themselves again.
+            </p>
+            <p className="mb-8">
+              The yellow house came later. So did the careers. Chloe built her dream home in East Austin - a house designed for gathering, and a reputation guiding people through life-changing decisions in real estate. I built rooms through culture, my own events company Keep It Quiet, and my hospitality foray into Devil May Care. What never changed was the instinct to bring the right people together on purpose.
+            </p>
+            <p className="mb-8">
+              No Bad Company lives in that space between fire and calm - between her push and my pull. We don’t chase chaos. We curate connection.
+            </p>
             <p>
-              Community spotlight coming here. This section highlights founders, hosts, builders, creatives, and operators from inside our world.
+              This section is where we spotlight the beautiful people in our world. This week, we wanted to start with us.
             </p>
           </div>
         </section>
