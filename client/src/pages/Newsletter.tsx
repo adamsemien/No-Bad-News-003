@@ -25,25 +25,35 @@ export default function Newsletter() {
             TL;DR - This Week in No Bad News
           </h2>
           <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
-            <li className="flex gap-4">
-              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">FOOD</span>
-              <span>My family’s Cajun gumbo recipe - finally on video</span>
+            <li className="group">
+              <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">FOOD</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">My family’s Cajun gumbo recipe - finally on video</span>
+              </a>
             </li>
-            <li className="flex gap-4">
-              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">HOSTING</span>
-              <span>A hosting move that instantly upgrades conversation</span>
+            <li className="group">
+              <a href="#hosting" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">HOSTING</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A hosting move that instantly upgrades conversation</span>
+              </a>
             </li>
-            <li className="flex gap-4">
-              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">TIPS</span>
-              <span>A Rockefeller Center flex you can steal at the bar</span>
+            <li className="group">
+              <a href="#tips" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">TIPS</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A Rockefeller Center flex you can steal at the bar</span>
+              </a>
             </li>
-            <li className="flex gap-4">
-              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">MUSIC</span>
-              <span>Frank Ocean “Strawberry Swing” - still undefeated</span>
+            <li className="group">
+              <a href="#music" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">MUSIC</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Frank Ocean “Strawberry Swing” - still undefeated</span>
+              </a>
             </li>
-            <li className="flex gap-4">
-              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">DESIGN</span>
-              <span>A brand that turns desktop icons into real life</span>
+            <li className="group">
+              <a href="#design" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">DESIGN</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A brand that turns desktop icons into real life</span>
+              </a>
             </li>
           </ul>
         </section>
@@ -73,7 +83,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Food */}
-        <section className="mb-16 pt-4">
+        <section id="food" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Food
           </h2>
@@ -110,7 +120,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Hosting */}
-        <section className="mb-16 pt-4">
+        <section id="hosting" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Hosting
           </h2>
@@ -138,7 +148,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Tips */}
-        <section className="mb-16 pt-4">
+        <section id="tips" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Tips
           </h2>
@@ -164,7 +174,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Music */}
-        <section className="mb-16 pt-4">
+        <section id="music" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Music
           </h2>
@@ -205,7 +215,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Design */}
-        <section className="mb-16 pt-4">
+        <section id="design" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Design
           </h2>
