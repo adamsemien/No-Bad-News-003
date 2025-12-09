@@ -1,0 +1,101 @@
+GOAL: Remove all emoji usage from the NO BAD NEWS Issue 001 newsletter and replace their function with refined, mature editorial styling. This must feel like a real publication, not AI-generated or playful.
+
+DO NOT change:
+
+* Brand colors
+* Fonts
+* Layout width
+* Section order
+* Spacing system
+* Images
+* Buttons
+* Existing copy (only remove emojis and replace their visual role)
+
+---
+
+1. GLOBAL EMOJI REMOVAL
+
+* Remove 100% of emojis from:
+
+  * TL;DR section
+  * Section headers
+  * Bulleted lists
+  * Inline body copy
+* Do not leave gaps where emojis were - replace their visual purpose deliberately.
+
+---
+
+2. TL;DR REPLACEMENT STYLE (VERY IMPORTANT)
+   Replace each emoji bullet with:
+
+* A refined typographic bullet (•)
+* Or a thin horizontal rule between items
+* Or small muted uppercase labels
+
+Example transformation:
+OLD:
+🍲 Gumbo recipe on video
+🕯 Hosting move for better conversation
+
+NEW OPTIONS (choose ONE consistent style):
+• Gumbo recipe on video
+• Hosting move for better conversation
+
+OR
+
+FOOD - Gumbo recipe on video
+HOSTING - A move for better conversation
+
+Must feel:
+Editorial. Calm. Confident. Not cute.
+
+---
+
+3. SECTION HEADERS
+
+* Remove any decorative emoji next to section titles
+* Rely only on:
+
+  * Typography
+  * Spacing
+  * Thin dividers
+  * Micro-description lines
+
+---
+
+4. BULLETED LISTS (No Bad Tips, Design, etc.)
+   Replace emoji bullets with:
+
+* Clean dot bullets (•)
+* Light en-dash bullets (–)
+* Or subtle numbered lists when appropriate
+
+Never use icons or symbols that feel “app-like.”
+
+---
+
+5. OVERALL TONE ADJUSTMENT
+   After emoji removal, apply:
+
+* Slight increase in line-height in TL;DR for breathability
+* Slight increase in spacing between bullet items
+* Slight decrease in visual noise overall
+
+The page should now feel:
+Quiet. Intentional. Grown.
+
+---
+
+6. FINAL QUALITY BAR
+   This version of the newsletter should feel like it could live next to:
+
+* The New Yorker
+* Kinfolk
+* GQ Longform
+* A24 editorial
+* Cereal Magazine
+
+No emoji should remain anywhere on the page.
+
+OUTPUT:
+Return the updated desktop email mock with all emojis removed and replaced by refined editorial styling.

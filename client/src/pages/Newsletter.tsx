@@ -26,23 +26,23 @@ export default function Newsletter() {
           </h2>
           <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
             <li className="flex gap-4">
-              <span className="shrink-0">🍲</span>
+              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">FOOD</span>
               <span>My family’s Cajun gumbo recipe - finally on video</span>
             </li>
             <li className="flex gap-4">
-              <span className="shrink-0">🕯</span>
+              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">HOSTING</span>
               <span>A hosting move that instantly upgrades conversation</span>
             </li>
             <li className="flex gap-4">
-              <span className="shrink-0">🥃</span>
+              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">TIPS</span>
               <span>A Rockefeller Center flex you can steal at the bar</span>
             </li>
             <li className="flex gap-4">
-              <span className="shrink-0">🎶</span>
+              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">MUSIC</span>
               <span>Frank Ocean “Strawberry Swing” - still undefeated</span>
             </li>
             <li className="flex gap-4">
-              <span className="shrink-0">🎨</span>
+              <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">DESIGN</span>
               <span>A brand that turns desktop icons into real life</span>
             </li>
           </ul>
@@ -91,8 +91,8 @@ export default function Newsletter() {
               I finally filmed it.
             </p>
             <ul className="list-none space-y-5 mb-8 pl-0">
-              <li>🎥 Full video: <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#B22E21] font-medium hover:text-[#96261c] transition-colors ml-1 tracking-wide">Watch on YouTube</a></li>
-              <li>📝 Written recipe + ingredients: <span className="text-[#B22E21] font-medium hover:text-[#96261c] cursor-pointer ml-1 tracking-wide">RECIPE LINK HERE</span></li>
+              <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">VIDEO</span> <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#1C1C1C] hover:text-[#B22E21] transition-colors decoration-[rgba(0,0,0,0.1)] underline underline-offset-4">Watch on YouTube</a></li>
+              <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">RECIPE</span> <span className="text-[#1C1C1C] hover:text-[#B22E21] cursor-pointer transition-colors decoration-[rgba(0,0,0,0.1)] underline underline-offset-4">Read full recipe + ingredients</span></li>
             </ul>
             <p>
               This isn’t a “twist” on gumbo. It’s the real thing. Take your time with it.
