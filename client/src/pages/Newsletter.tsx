@@ -78,7 +78,7 @@ export default function Newsletter() {
             No Bad Food
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
-            Recipes, lineage, and things worth passing down.
+            Recipes, restaurants, and things worth cooking slow.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
@@ -103,8 +103,8 @@ export default function Newsletter() {
         {/* Sponsor Slot 1 */}
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
         <div className="border border-[rgba(0,0,0,0.06)] py-8 px-4 text-center mb-12">
-          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40">
-            Presented with support from a future brand partner
+          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
+            Presented with support from a future brand partner.
           </p>
         </div>
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
@@ -115,7 +115,7 @@ export default function Newsletter() {
             No Bad Hosting
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
-            Rules, moves, and social leverage for real-world rooms.
+            Moves that make rooms feel better.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
@@ -137,13 +137,13 @@ export default function Newsletter() {
 
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
-        {/* No Bad Snacks */}
+        {/* No Bad Tips */}
         <section className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
-            No Bad Snacks
+            No Bad Tips
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
-            Small facts that travel well at the bar.
+            Small insights you can casually drop.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p className="mb-8">
@@ -169,7 +169,7 @@ export default function Newsletter() {
             No Bad Music
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
-            One song, no skips.
+            One song. One mood. No skips.
           </p>
           
           <div className="mb-12 flex justify-center">
@@ -202,13 +202,6 @@ export default function Newsletter() {
           </div>
         </section>
 
-        {/* Sponsor Slot 2 */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
-        <div className="border border-[rgba(0,0,0,0.06)] py-8 px-4 text-center mb-12">
-          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40">
-            Presented with support from a future brand partner
-          </p>
-        </div>
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Design */}
@@ -217,7 +210,7 @@ export default function Newsletter() {
             No Bad Design
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
-            Objects and ideas bending reality.
+            Objects, spaces, and ideas done with intention.
           </p>
           
           <div className="mb-12 flex justify-center">
@@ -263,12 +256,48 @@ export default function Newsletter() {
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
-            People from our world doing what they were clearly put here to do.
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
+            Beautiful people from our community.
           </p>
+
+          <div className="mb-12 flex justify-center">
+            <div className="w-full max-w-[400px]">
+              <img 
+                src="https://images.unsplash.com/photo-1554151228-14d9def656ec?q=80&w=1372&auto=format&fit=crop" 
+                alt="Community Spotlight" 
+                className="w-full rounded-sm object-cover aspect-square grayscale-[10%] hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
+          </div>
+
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
             <p>
               Community spotlight coming here. This section highlights founders, hosts, builders, creatives, and operators from inside our world.
+            </p>
+          </div>
+        </section>
+
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+
+        {/* No Bad Plans */}
+        <section className="mb-16 pt-4">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
+            No Bad Plans
+          </h2>
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+            One thing actually worth leaving the house for.
+          </p>
+
+          {/* Sponsor Slot 2 (Inside No Bad Plans) */}
+          <div className="border border-[rgba(0,0,0,0.06)] py-6 px-4 text-center mb-8">
+            <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
+              Presented with support from a future brand partner.
+            </p>
+          </div>
+
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+            <p>
+              Coming soon. A curated selection of events, openings, and moments worth your time.
             </p>
           </div>
         </section>
@@ -281,7 +310,7 @@ export default function Newsletter() {
             Today’s Thought
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
-            A final sentence to sit with.
+            Something to sit with.
           </p>
           <p className="font-body text-lg text-[#1C1C1C] leading-loose">
             That’s it for this week.<br/>
@@ -296,7 +325,7 @@ export default function Newsletter() {
           </button>
           
           <p className="font-sans text-xs text-[#2A1F1A]/50 tracking-wide uppercase">
-            “No Bad Company - for stories that need to be told”
+            “No Bad Company - for stories that need to be told.”
           </p>
         </footer>
 

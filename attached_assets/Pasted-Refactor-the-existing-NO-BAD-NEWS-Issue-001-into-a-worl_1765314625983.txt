@@ -1,0 +1,204 @@
+Refactor the existing **NO BAD NEWS – Issue 001** into a **world-class luxury editorial EMAIL newsletter**.
+
+This is a **DESKTOP-FIRST EMAIL DESIGN** (not a website).
+It must render perfectly inside **Gmail + ActiveCampaign**.
+
+This is a **content replacement + layout polish + spacing + editorial rhythm pass**.
+Do NOT redesign the brand. Do NOT alter the core visual identity.
+
+---
+
+## 1. ABSOLUTE CONSTRAINTS (DO NOT BREAK)
+
+* Single column layout only
+* Max content width: **640px**
+* Centered on page
+* No JavaScript
+* No grids
+* No animations
+* No hover effects
+* No nav bar
+* No hero image
+* No background patterns
+* Use ONLY email-safe HTML + inline CSS
+
+This must feel like:
+**Vogue x GQ x Kinfolk – but as an email**
+
+---
+
+## 2. BRAND COLORS (LOCKED – USE EXACT)
+
+* Background: **#F5EFE8**
+* Primary Text: **#1C1C1C**
+* Accent Red: **#B22E21**
+* Dark Neutral: **#2A1F1A**
+* Divider Lines: **rgba(0,0,0,0.06)**
+
+NO new colors
+NO gradients
+NO shadows
+
+---
+
+## 3. TYPOGRAPHY HIERARCHY
+
+* Masthead “NO BAD NEWS” → Elegant high-contrast serif
+* Section Headers → Clean modern sans with light tracking
+* Body Copy → Editorial serif or refined modern sans
+* Buttons → Sans-serif, medium weight, slightly squared corners
+
+No playful fonts
+No startup fonts
+No bubbly UI
+
+---
+
+## 4. FINAL SECTION ORDER (EDITORIAL FLOW – LOCKED)
+
+Re-order the newsletter in EXACTLY this order:
+
+1. Masthead
+2. TL;DR
+3. Editor’s Note – Adam’s Corner
+4. No Bad Food
+5. No Bad Hosting
+6. No Bad Tips
+7. No Bad Music
+8. No Bad Design
+9. No Bad Company – Community Spotlight
+10. No Bad Plans
+11. Today’s Thought (Soft Close)
+12. Final CTA + Footer
+
+---
+
+## 5. SECTION MICRO-DESCRIPTIONS
+
+Place these one-line descriptors directly under each section title in a lighter, muted style:
+
+* **No Bad Food** – “Recipes, restaurants, and things worth cooking slow.”
+* **No Bad Hosting** – “Moves that make rooms feel better.”
+* **No Bad Tips** – “Small insights you can casually drop.”
+* **No Bad Music** – “One song. One mood. No skips.”
+* **No Bad Design** – “Objects, spaces, and ideas done with intention.”
+* **No Bad Company** – “Beautiful people from our community.”
+* **No Bad Plans** – “One thing actually worth leaving the house for.”
+* **Today’s Thought** – “Something to sit with.”
+
+These should feel editorial and restrained.
+
+---
+
+## 6. IMAGE RULES (UPDATED – VERY IMPORTANT)
+
+Exactly THREE sections include images:
+
+* ✅ No Bad Music (square image)
+* ✅ No Bad Design (square image)
+* ✅ No Bad Company (square image – use the current image that exists there now)
+
+All three images must:
+
+* Be centered
+* Be the same width
+* Have a **tiny rounded corner radius**
+* Have generous breathing room above and below
+
+Every other section is **TEXT ONLY**.
+
+---
+
+## 7. SPONSOR PLACEMENT RULES
+
+Insert subtle sponsor placeholders in TWO locations:
+
+* Directly after **No Bad Food**
+* Inside **No Bad Plans**
+
+Style:
+
+* Thin divider
+* Small, italic, muted text:
+  “Presented with support from a future brand partner.”
+
+No logos. No color blocking.
+
+---
+
+## 8. BUTTON STYLE (LOCKED)
+
+* Background: **#B22E21**
+* Text: White
+* No shadow
+* Slight letter-spacing
+* Slightly squared corners
+* Used ONLY for:
+
+  * “Listen on YouTube”
+  * “Join The Red List”
+
+---
+
+## 9. REPLACE ALL CURRENT NEWSLETTER COPY WITH THE FOLLOWING EXACT ISSUE 001 CONTENT
+
+Use the **exact copy from the most recent Issue 001 version provided in the latest screenshot** including:
+
+* TL;DR
+* Editor’s Note
+* No Bad Food
+* No Bad Hosting
+* No Bad Tips
+* No Bad Music
+* No Bad Design
+* No Bad Company
+* No Bad Plans
+* Today’s Thought
+* Final sign-off
+
+Do NOT rewrite the text. Only clean hierarchy, spacing, and layout.
+
+---
+
+## 10. FOOTER UPDATE (LOCKED)
+
+Replace the footer tagline with:
+
+**“No Bad Company – for stories that need to be told.”**
+
+This line should be:
+
+* Smaller
+* Muted
+* Centered
+* Calm and confident
+
+---
+
+## 11. OVERALL FEEL REQUIREMENT
+
+This newsletter must feel:
+
+* Editorial
+* Timeless
+* Calm
+* Confident
+* Personal
+* Not salesy
+* Not influencer
+* Not startup
+* Not blog-like
+
+It should visually belong beside:
+**Vogue, GQ, Kinfolk, or Cereal**
+
+---
+
+## 12. OUTPUT REQUIREMENTS
+
+* Desktop email mock
+* Gmail-safe
+* Screenshot-ready
+* Zero motion
+* Zero gimmicks
+* Pure luxury editorial restraint
