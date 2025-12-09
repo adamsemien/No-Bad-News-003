@@ -263,7 +263,7 @@ export default function Newsletter() {
           <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
-                src="https://images.unsplash.com/photo-1554151228-14d9def656ec?q=80&w=1372&auto=format&fit=crop" 
+                src="https://scontent.faus1-1.fna.fbcdn.net/v/t39.30808-6/516454631_10104300589835490_7725354260110627631_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7094&_nc_ohc=BCWYhCuhF7gQ7kNvwHBUmpi&_nc_oc=AdkWwzOZP46wGLlZmFc3glZ8uFYTJuS05ID_XXlDGCrq3GjBiRMb5XvWQRIT7PpdAOPXYBQ1NnuPjeRxcVu6hEBt&_nc_zt=23&_nc_ht=scontent.faus1-1.fna&_nc_gid=ZTVoneK85p8oxpo0tcJHKw&oh=00_AfnGNPyn-wZzY0LkPgbPTzgSvj1i2p-vFUGfQy0URpDq9A&oe=693E7792" 
                 alt="Community Spotlight" 
                 className="w-full rounded-sm object-cover aspect-square grayscale-[10%] hover:grayscale-0 transition-all duration-500"
               />
