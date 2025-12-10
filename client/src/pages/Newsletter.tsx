@@ -26,7 +26,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[140px] mb-24 overflow-hidden grayscale opacity-90">
+        <div className="w-full h-[160px] mb-24 overflow-hidden grayscale opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -39,40 +39,40 @@ export default function Newsletter() {
           <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-6 font-body text-[#1C1C1C] leading-relaxed">
+          <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">FOOD</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">FOOD</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">My family’s Cajun gumbo recipe - finally on video</span>
               </a>
             </li>
             <li className="group">
               <a href="#hosting" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">HOSTING</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">HOSTING</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A hosting move that instantly upgrades conversation</span>
               </a>
             </li>
             <li className="group">
               <a href="#tips" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">TIPS</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">TIPS</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A Rockefeller Center flex you can steal at the bar</span>
               </a>
             </li>
             <li className="group">
               <a href="#music" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">MUSIC</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">MUSIC</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Frank Ocean “Strawberry Swing” - still undefeated</span>
               </a>
             </li>
             <li className="group">
               <a href="#design" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-16 pt-1">DESIGN</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">DESIGN</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A brand that turns desktop icons into real life</span>
               </a>
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-32"></div>
 
         {/* Editor's Note */}
         <section className="mb-24 pt-4">
@@ -273,7 +273,7 @@ export default function Newsletter() {
             Objects, spaces, and ideas done with intention.
           </p>
           
-          <div className="mb-16 flex justify-center">
+          <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
@@ -293,7 +293,7 @@ export default function Newsletter() {
             <p className="mb-6">
               It works because it does three things at once:
             </p>
-            <ul className="list-disc pl-5 mb-6 space-y-5 marker:text-[#B22E21]">
+            <ul className="list-disc pl-5 mb-6 space-y-3 marker:text-[#B22E21]">
               <li>Feels stupid simple</li>
               <li>Looks insanely clean</li>
               <li>Quietly messes with your sense of reality</li>
@@ -359,7 +359,7 @@ export default function Newsletter() {
         </section>
 
         {/* Footer */}
-        <div className="text-center pb-32">
+        <div className="text-center pb-24">
           <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-16 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
@@ -367,7 +367,7 @@ export default function Newsletter() {
       </div>
       
       {/* Full Width Footer Band */}
-      <div className="w-full bg-[#2A1F1A]/90 py-16 text-center">
+      <div className="w-full bg-[#2A1F1A]/90 py-12 mt-12 text-center">
         <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase">
           “No Bad Company - for stories that need to be told.”
         </p>
