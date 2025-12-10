@@ -1,4 +1,5 @@
 import React from "react";
+import bannerImage from "@assets/Music_Playlist_Banner_640x140_1765390874164.jpg";
 
 export default function Newsletter() {
   return (
@@ -27,7 +28,7 @@ export default function Newsletter() {
         {/* Quiet Top Banner */}
         <div className="w-full h-[140px] mb-24 overflow-hidden grayscale opacity-90">
           <img 
-            src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2067&auto=format&fit=crop" 
+            src={bannerImage}
             alt="Atmospheric texture" 
             className="w-full h-full object-cover"
           />
