@@ -7,15 +7,19 @@ export default function Newsletter() {
       <div className="w-full max-w-[640px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-24 text-center">
-          <h1 className="font-serif text-5xl tracking-widest mb-10 font-extrabold text-[#1C1C1C]">
+        <header className="mb-20 text-center">
+          <h1 className="font-serif text-5xl tracking-widest mb-6 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
-          <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase border-y border-[rgba(0,0,0,0.06)] py-3 font-light">
+          <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase py-2 font-light">
             <span className="opacity-80">Issue 001</span>
             <span className="opacity-40">•</span>
             <span className="opacity-80">Friday Morning</span>
           </div>
+          <div className="font-serif text-base tracking-wider text-[#1C1C1C] mt-1 mb-8">
+            For the stories that need to be told.
+          </div>
+          <div className="w-full h-px bg-[rgba(0,0,0,0.06)]"></div>
         </header>
 
         {/* TL;DR Section */}
