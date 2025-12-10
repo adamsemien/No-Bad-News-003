@@ -296,35 +296,44 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-20 pt-4">
+        <section className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Plans
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
             One thing actually worth leaving the house for.
           </p>
 
-          {/* Sponsor Slot 2 (Inside No Bad Plans) */}
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
-          <div className="py-2 px-4 text-center mb-12 opacity-60">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+            <div className="mb-12">
+              <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
+              <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-4">
+                A Wednesday night for people who like their rooms electric and their poker competitive.
+              </p>
+              <div className="flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-[#B22E21]">
+                <span>Wednesdays</span>
+                <span>•</span>
+                <span>Austin, TX</span>
+                <span>•</span>
+                <a href="#" className="underline decoration-[#B22E21]/30 underline-offset-4 hover:text-[#1C1C1C] transition-colors">Request Invite</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
+          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+          <div className="py-2 px-4 text-center mb-16 opacity-60">
             <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
               Presented with support from a future brand partner.
             </p>
           </div>
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
-
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p>
-              Coming soon. A curated selection of events, openings, and moments worth your time.
-            </p>
-          </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-40 mt-24 text-center px-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+        <section className="mb-48 mt-32 text-center px-4">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-8">
             Today’s Thought
           </h2>
           <p className="font-serif text-lg italic text-[#1C1C1C]/50 leading-loose">
@@ -334,16 +343,18 @@ export default function Newsletter() {
         </section>
 
         {/* Footer */}
-        <footer className="text-center pb-24">
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-12 rounded-md mb-12 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-wide shadow-none opacity-90 hover:opacity-100">
+        <div className="text-center pb-32">
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-14 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
-          
-          <p className="font-sans text-xs text-[#2A1F1A]/50 tracking-wide uppercase">
-            “No Bad Company - for stories that need to be told.”
-          </p>
-        </footer>
-
+        </div>
+      </div>
+      
+      {/* Full Width Footer Band */}
+      <div className="w-full bg-[#2A1F1A] py-16 text-center">
+        <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase">
+          “No Bad Company - for stories that need to be told.”
+        </p>
       </div>
     </div>
   );
