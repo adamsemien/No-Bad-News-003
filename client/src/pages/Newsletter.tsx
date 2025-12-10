@@ -65,7 +65,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
 
         {/* Editor's Note */}
-        <section className="mb-20 pt-4">
+        <section className="mb-12 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -89,7 +89,7 @@ export default function Newsletter() {
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
-        <section className="mb-40 pt-16">
+        <section className="mb-20 pt-16">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
@@ -151,13 +151,13 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-        <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-8"></div>
+        <div className="bg-[#B22E21] py-8 px-4 text-center mb-8">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
 
         {/* No Bad Hosting */}
         <section id="hosting" className="mb-20 pt-4">
@@ -327,8 +327,8 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-          <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
+          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-8"></div>
+          <div className="bg-[#B22E21] py-8 px-4 text-center mb-8">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
             </p>
