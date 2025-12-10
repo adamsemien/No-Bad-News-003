@@ -1,5 +1,6 @@
 import React from "react";
 import bannerImage from "@assets/Music_Playlist_Banner_640x140_1765390874164.jpg";
+import communitySpotlightImage from "@assets/IMG_5189_1765408932145.png";
 
 export default function Newsletter() {
   return (
@@ -110,7 +111,7 @@ export default function Newsletter() {
           <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[450px]">
               <img 
-                src="https://scontent.faus1-1.fna.fbcdn.net/v/t39.30808-6/516454631_10104300589835490_7725354260110627631_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7094&_nc_ohc=BCWYhCuhF7gQ7kNvwHBUmpi&_nc_oc=AdkWwzOZP46wGLlZmFc3glZ8uFYTJuS05ID_XXlDGCrq3GjBiRMb5XvWQRIT7PpdAOPXYBQ1NnuPjeRxcVu6hEBt&_nc_zt=23&_nc_ht=scontent.faus1-1.fna&_nc_gid=ZTVoneK85p8oxpo0tcJHKw&oh=00_AfnGNPyn-wZzY0LkPgbPTzgSvj1i2p-vFUGfQy0URpDq9A&oe=693E7792" 
+                src={communitySpotlightImage}
                 alt="Community Spotlight" 
                 className="w-full rounded-sm object-cover aspect-square grayscale-[10%] hover:grayscale-0 transition-all duration-500"
               />
