@@ -37,10 +37,10 @@ export default function Newsletter() {
 
         {/* TL;DR Section */}
         <section className="mb-24">
-          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10">
+          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
+          <ul className="space-y-6 font-body text-[#1C1C1C] leading-relaxed">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">FOOD</span>
@@ -304,10 +304,9 @@ export default function Newsletter() {
               <li>Quietly messes with your sense of reality</li>
             </ul>
             <p className="mb-6">
-              It doesn’t try to feel futuristic.<br/>
               It just shifts the world one notch sideways.
             </p>
-            <ul className="list-none space-y-3 pl-0 mt-10 text-center sm:text-left">
+            <ul className="list-none space-y-3 pl-0 mt-8 text-center sm:text-left">
               <li>Studio: <a href="https://www.nikolasbentelstudio.com" className="text-[#1C1C1C] hover:text-[#B22E21] underline decoration-[rgba(0,0,0,0.1)] underline-offset-4 transition-colors">nikolasbentelstudio.com</a></li>
               <li>Project: <a href="https://www.nikolasbentelstudio.com/projects/1bttwqzx" className="text-[#1C1C1C] hover:text-[#B22E21] underline decoration-[rgba(0,0,0,0.1)] underline-offset-4 transition-colors">View Project</a></li>
             </ul>
@@ -353,7 +352,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-32 mt-32 text-center px-4">
+        <section className="mb-32 mt-24 text-center px-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-8">
             Today’s Thought
           </h2>
@@ -372,7 +371,7 @@ export default function Newsletter() {
       </div>
       
       {/* Full Width Footer Band */}
-      <div className="w-full bg-[#2A1F1A]/90 py-12 mt-12 text-center">
+      <div className="w-full bg-[#2A1F1A]/90 py-8 mt-12 text-center">
         <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase">
           “No Bad Company - for stories that need to be told.”
         </p>
