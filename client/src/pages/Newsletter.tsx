@@ -7,7 +7,7 @@ export default function Newsletter() {
       <div className="w-full max-w-[640px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-20 text-center">
+        <header className="mb-12 text-center">
           <h1 className="font-serif text-5xl tracking-widest mb-6 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
@@ -24,8 +24,17 @@ export default function Newsletter() {
           </div>
         </header>
 
+        {/* Quiet Top Banner */}
+        <div className="w-full h-[140px] mb-24 overflow-hidden grayscale opacity-90">
+          <img 
+            src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2067&auto=format&fit=crop" 
+            alt="Atmospheric texture" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+
         {/* TL;DR Section */}
-        <section className="mb-10">
+        <section className="mb-24">
           <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10">
             TL;DR - This Week in No Bad News
           </h2>
@@ -62,10 +71,10 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* Editor's Note */}
-        <section className="mb-12 pt-4">
+        <section className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -85,11 +94,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
-        <section className="mb-20 pt-16">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <section className="mb-32 pt-16">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
@@ -120,10 +129,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-20 pt-4">
+        <section id="food" className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Food
           </h2>
@@ -157,10 +166,10 @@ export default function Newsletter() {
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-20 pt-4">
+        <section id="hosting" className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Hosting
           </h2>
@@ -185,10 +194,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-20 pt-4">
+        <section id="tips" className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Tips
           </h2>
@@ -211,14 +220,14 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-20 pt-4">
+        <section id="music" className="mb-24 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Music
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             One song. One mood. No skips.
           </p>
           
@@ -246,20 +255,20 @@ export default function Newsletter() {
           </div>
 
           <div className="flex justify-center">
-             <a href="https://www.youtube.com/watch?v=G7wcRZWRDdw" className="bg-[#B22E21] text-white font-sans font-medium py-3 px-8 rounded-[4px] hover:bg-[#96261c] transition-colors no-underline tracking-wide">
+             <a href="https://www.youtube.com/watch?v=G7wcRZWRDdw" className="bg-[#B22E21] text-white font-sans font-medium py-3 px-12 rounded-[4px] hover:bg-[#96261c] transition-colors no-underline tracking-wide">
                Listen on YouTube
              </a>
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-20 pt-4">
+        <section id="design" className="mb-12 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Design
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             Objects, spaces, and ideas done with intention.
           </p>
           
@@ -268,27 +277,27 @@ export default function Newsletter() {
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
                 alt="Nikolas Bentel Studio Design" 
-                className="w-full rounded-sm object-cover aspect-square"
+                className="w-full rounded-sm object-cover aspect-[16/10]"
               />
             </div>
           </div>
           
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-10">
+            <p className="mb-6">
               This week’s obsession is Nikolas Bentel Studio.
             </p>
-            <p className="mb-10">
+            <p className="mb-6">
               He pulls digital objects into the real world - desktop folders, UI windows, system icons - and turns them into physical products. Laptop cases that look like software panels. Bags that feel like pop-ups.
             </p>
-            <p className="mb-10">
+            <p className="mb-6">
               It works because it does three things at once:
             </p>
-            <ul className="list-disc pl-5 mb-10 space-y-5 marker:text-[#B22E21]">
+            <ul className="list-disc pl-5 mb-6 space-y-5 marker:text-[#B22E21]">
               <li>Feels stupid simple</li>
               <li>Looks insanely clean</li>
               <li>Quietly messes with your sense of reality</li>
             </ul>
-            <p className="mb-10">
+            <p className="mb-6">
               It doesn’t try to feel futuristic.<br/>
               It just shifts the world one notch sideways.
             </p>
@@ -299,7 +308,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Plans */}
         <section className="mb-24 pt-4">
@@ -350,7 +359,7 @@ export default function Newsletter() {
 
         {/* Footer */}
         <div className="text-center pb-32">
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-14 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-16 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
         </div>
