@@ -152,8 +152,8 @@ export default function Newsletter() {
 
         {/* Sponsor Slot 1 */}
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-        <div className="py-2 px-4 text-center mb-16 opacity-60">
-          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
+        <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
+          <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
@@ -328,8 +328,8 @@ export default function Newsletter() {
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
           <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-          <div className="py-2 px-4 text-center mb-16 opacity-60">
-            <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
+          <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
+            <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
             </p>
           </div>
