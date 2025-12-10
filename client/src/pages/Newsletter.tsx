@@ -109,11 +109,15 @@ export default function Newsletter() {
           </p>
 
           <div className="mb-12 flex justify-center">
-            <div className="w-full max-w-[450px]">
+            <div className="w-full max-w-[450px] relative group cursor-pointer">
+              {/* Nostalgic Overlay */}
+              <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-10 rounded-sm pointer-events-none z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-[#B22E21]/10 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-700 z-10 rounded-sm"></div>
+              
               <img 
                 src={communitySpotlightImage}
                 alt="Community Spotlight" 
-                className="w-full rounded-sm object-cover aspect-square grayscale-[10%] hover:grayscale-0 transition-all duration-500"
+                className="w-full rounded-sm object-cover aspect-square sepia-[.25] contrast-[0.9] brightness-[1.05] saturate-[0.85] group-hover:sepia-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-700 ease-out shadow-sm"
               />
             </div>
           </div>
