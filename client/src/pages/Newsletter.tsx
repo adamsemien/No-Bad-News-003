@@ -19,11 +19,12 @@ export default function Newsletter() {
           <div className="font-serif text-base tracking-wider text-[#1C1C1C] mt-1 mb-8">
             For the stories that need to be told.
           </div>
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)]"></div>
+          <div className="flex justify-center mb-10">
+            <div className="w-12 h-px bg-[#1C1C1C]/20"></div>
+          </div>
         </header>
 
         {/* TL;DR Section */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
         <section className="mb-10">
           <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10">
             TL;DR - This Week in No Bad News
@@ -87,7 +88,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-20"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <section className="mb-24 pt-4">
+        <section className="mb-32 pt-12">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
@@ -96,7 +97,7 @@ export default function Newsletter() {
           </p>
 
           <div className="mb-16 flex justify-center">
-            <div className="w-full max-w-[400px]">
+            <div className="w-full max-w-[430px]">
               <img 
                 src="https://scontent.faus1-1.fna.fbcdn.net/v/t39.30808-6/516454631_10104300589835490_7725354260110627631_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7094&_nc_ohc=BCWYhCuhF7gQ7kNvwHBUmpi&_nc_oc=AdkWwzOZP46wGLlZmFc3glZ8uFYTJuS05ID_XXlDGCrq3GjBiRMb5XvWQRIT7PpdAOPXYBQ1NnuPjeRxcVu6hEBt&_nc_zt=23&_nc_ht=scontent.faus1-1.fna&_nc_gid=ZTVoneK85p8oxpo0tcJHKw&oh=00_AfnGNPyn-wZzY0LkPgbPTzgSvj1i2p-vFUGfQy0URpDq9A&oe=693E7792" 
                 alt="Community Spotlight" 
@@ -152,7 +153,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
         <div className="py-2 px-4 text-center mb-16 opacity-60">
           <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
-            Presented with support from a future brand partner.
+            This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
@@ -328,7 +329,7 @@ export default function Newsletter() {
           <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
           <div className="py-2 px-4 text-center mb-16 opacity-60">
             <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 italic">
-              Presented with support from a future brand partner.
+              This space is reserved for a brand we genuinely believe in.
             </p>
           </div>
         </section>
@@ -355,7 +356,7 @@ export default function Newsletter() {
       </div>
       
       {/* Full Width Footer Band */}
-      <div className="w-full bg-[#2A1F1A] py-16 text-center">
+      <div className="w-full bg-[#2A1F1A]/95 py-16 text-center">
         <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase">
           “No Bad Company - for stories that need to be told.”
         </p>
