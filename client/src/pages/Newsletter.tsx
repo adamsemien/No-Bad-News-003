@@ -72,7 +72,7 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-32"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* Editor's Note */}
         <section className="mb-24 pt-4">
@@ -98,7 +98,7 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
         <section className="mb-32 pt-16">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
@@ -107,7 +107,7 @@ export default function Newsletter() {
             A spotlight of beautiful people from our community.
           </p>
 
-          <div className="mb-20 flex justify-center">
+          <div className="mb-12 flex justify-center">
             <div className="w-full max-w-[450px]">
               <img 
                 src="https://scontent.faus1-1.fna.fbcdn.net/v/t39.30808-6/516454631_10104300589835490_7725354260110627631_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7094&_nc_ohc=BCWYhCuhF7gQ7kNvwHBUmpi&_nc_oc=AdkWwzOZP46wGLlZmFc3glZ8uFYTJuS05ID_XXlDGCrq3GjBiRMb5XvWQRIT7PpdAOPXYBQ1NnuPjeRxcVu6hEBt&_nc_zt=23&_nc_ht=scontent.faus1-1.fna&_nc_gid=ZTVoneK85p8oxpo0tcJHKw&oh=00_AfnGNPyn-wZzY0LkPgbPTzgSvj1i2p-vFUGfQy0URpDq9A&oe=693E7792" 
@@ -130,7 +130,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Food */}
         <section id="food" className="mb-24 pt-4">
@@ -167,7 +167,7 @@ export default function Newsletter() {
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Hosting */}
         <section id="hosting" className="mb-24 pt-4">
@@ -195,7 +195,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Tips */}
         <section id="tips" className="mb-24 pt-4">
@@ -221,7 +221,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Music */}
         <section id="music" className="mb-24 pt-4">
@@ -232,7 +232,7 @@ export default function Newsletter() {
             One song. One mood. No skips.
           </p>
           
-          <div className="mb-16 flex justify-center">
+          <div className="mb-10 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" 
@@ -262,7 +262,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Design */}
         <section id="design" className="mb-12 pt-4">
@@ -273,7 +273,7 @@ export default function Newsletter() {
             Objects, spaces, and ideas done with intention.
           </p>
           
-          <div className="mb-12 flex justify-center">
+          <div className="mb-8 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
@@ -283,7 +283,7 @@ export default function Newsletter() {
             </div>
           </div>
           
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-relaxed">
             <p className="mb-6">
               This week’s obsession is Nikolas Bentel Studio.
             </p>
@@ -293,7 +293,7 @@ export default function Newsletter() {
             <p className="mb-6">
               It works because it does three things at once:
             </p>
-            <ul className="list-disc pl-5 mb-6 space-y-3 marker:text-[#B22E21]">
+            <ul className="list-disc pl-5 mb-6 space-y-2 marker:text-[#B22E21]">
               <li>Feels stupid simple</li>
               <li>Looks insanely clean</li>
               <li>Quietly messes with your sense of reality</li>
@@ -309,7 +309,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Plans */}
         <section className="mb-24 pt-4">
@@ -321,7 +321,7 @@ export default function Newsletter() {
           </p>
 
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <div className="mb-12">
+            <div className="mb-8">
               <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
               <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-4">
                 A Wednesday night for people who like their rooms electric and their poker competitive.
@@ -345,10 +345,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-48 mt-32 text-center px-4">
+        <section className="mb-32 mt-32 text-center px-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-8">
             Today’s Thought
           </h2>
