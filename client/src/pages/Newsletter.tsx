@@ -92,7 +92,7 @@ export default function Newsletter() {
             No Bad Company
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
-            Beautiful people from our community.
+            A spotlight of beautiful people from our community.
           </p>
 
           <div className="mb-16 flex justify-center">
