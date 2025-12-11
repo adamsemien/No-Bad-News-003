@@ -1,0 +1,71 @@
+Refine this newsletter layout with precise, premium editorial polish.
+Do NOT change fonts, colors, tone, copy, or general structure.
+Only apply spacing, hierarchy, and micro-typography improvements.
+
+GLOBAL TYPOGRAPHY & RHYTHM
+
+Standardize vertical spacing between all major sections to a consistent value.
+Use a rhythm that visually matches high-end editorial sites (NYT Magazine, Kinfolk, Gentlewoman).
+
+Reduce excess white gaps between sections, especially below images, headers, and CTAs.
+
+Increase line-height for body text slightly for readability.
+
+Ensure all red micro-tags have consistent top and bottom spacing.
+
+MASTHEAD
+
+Add a subtle visual grounding element beneath the “NO BAD NEWS” masthead:
+a thin 1px horizontal rule or a minimal decorative line.
+
+Slightly reduce the space between the masthead, tagline, and the mini-photo block.
+
+Ensure the “For the stories that need to be told.” line sits cleanly within the masthead block with ~20% tighter spacing.
+
+SECTION HEADERS
+
+For “Editor’s Note,” “No Bad Company,” “No Bad Food,” “No Bad Hosting,” “No Bad Tips,” “No Bad Music,” “No Bad Design,” “No Bad Plans”:
+
+Increase font size by 5–8%.
+
+Add slight letter spacing for elegance.
+
+Ensure each header has consistent spacing above and below across the full page.
+
+Unify header weight so they look part of one system.
+
+IMAGES
+
+Ensure all images have consistent margin above and below (slightly reduced from current).
+
+Maintain rounded corners and aspect ratios (if present).
+
+Keep all images centered relative to their sections.
+
+CTAs
+
+Standardize CTA button width and spacing.
+
+Add consistent vertical padding above and below CTAs, especially the mid-page red buttons.
+
+Move the final CTA (“JOIN THE RED LIST”) up slightly so it does not collide with the footer.
+
+FOOTER
+
+Add extra top padding to create clean separation from the final CTA.
+
+Ensure the footer bar color remains unchanged but is visually balanced with the rest of the layout.
+
+Remove any accidental margin collapse causing visual compression at the bottom.
+
+OVERALL FEEL
+
+The entire page should read top-to-bottom with smooth, even editorial flow.
+
+No abrupt spacing changes.
+
+No unusually large blocks of white space.
+
+Maintain the luxury–minimalist–editorial aesthetic of No Bad Company.
+
+Output the fully refined HTML/CSS layout with these adjustments applied.
