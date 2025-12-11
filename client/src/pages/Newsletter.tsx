@@ -73,10 +73,10 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* Editor's Note */}
-        <section className="mb-24 pt-4">
+        <section className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -99,8 +99,8 @@ export default function Newsletter() {
         <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
-        <section className="mb-32 pt-16">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <section className="mb-16 pt-16">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
@@ -135,10 +135,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-24 pt-4">
+        <section id="food" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Food
           </h2>
@@ -166,16 +166,16 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-8"></div>
-        <div className="bg-[#B22E21] py-8 px-4 text-center mb-8">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-24 pt-4">
+        <section id="hosting" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Hosting
           </h2>
@@ -200,10 +200,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-24 pt-4">
+        <section id="tips" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Tips
           </h2>
@@ -226,10 +226,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-24 pt-4">
+        <section id="music" className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Music
           </h2>
@@ -267,7 +267,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Design */}
         <section id="design" className="mb-12 pt-4">
@@ -283,7 +283,7 @@ export default function Newsletter() {
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
                 alt="Nikolas Bentel Studio Design" 
-                className="w-full rounded-sm object-cover aspect-[16/10]"
+                className="w-full rounded-sm object-cover aspect-[16/9]"
               />
             </div>
           </div>
@@ -298,7 +298,7 @@ export default function Newsletter() {
             <p className="mb-6">
               It works because it does three things at once:
             </p>
-            <ul className="list-disc pl-5 mb-6 space-y-2 marker:text-[#B22E21]">
+            <ul className="list-disc pl-5 mb-6 space-y-1.5 marker:text-[#B22E21]">
               <li>Feels stupid simple</li>
               <li>Looks insanely clean</li>
               <li>Quietly messes with your sense of reality</li>
@@ -313,10 +313,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-24 pt-4">
+        <section className="mb-16 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Plans
           </h2>
@@ -341,7 +341,7 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-8"></div>
+          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
           <div className="bg-[#B22E21] py-8 px-4 text-center mb-8">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
@@ -349,7 +349,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
 
         {/* Today's Thought (Sign-off) */}
         <section className="mb-32 mt-24 text-center px-4">
@@ -364,15 +364,18 @@ export default function Newsletter() {
 
         {/* Footer */}
         <div className="text-center pb-24">
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-4 px-16 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
+          <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 mb-8">
+            For those who want the deeper cut…
+          </p>
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-16 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
         </div>
       </div>
       
       {/* Full Width Footer Band */}
-      <div className="w-full bg-[#2A1F1A]/90 py-8 mt-12 text-center">
-        <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase">
+      <div className="w-full bg-[#2A1F1A]/90 h-[70px] flex items-center justify-center mt-12">
+        <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase m-0 p-0">
           “No Bad Company - for stories that need to be told.”
         </p>
       </div>
