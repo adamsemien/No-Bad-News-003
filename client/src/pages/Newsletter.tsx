@@ -6,10 +6,10 @@ export default function Newsletter() {
   return (
     <div className="min-h-screen bg-[#F5EFE8] flex flex-col items-center py-20 px-4 sm:px-6 lg:px-8">
       {/* Email Container - Simulating standard email width */}
-      <div className="w-full max-w-[640px] bg-[#F5EFE8]">
+      <div className="w-full max-w-[680px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-12 text-center">
+        <header className="mb-14 text-center">
           <h1 className="font-serif text-5xl tracking-widest mb-3 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
@@ -27,7 +27,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[160px] mb-14 overflow-hidden grayscale opacity-90">
+        <div className="w-full h-[160px] mb-16 overflow-hidden grayscale opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -36,11 +36,11 @@ export default function Newsletter() {
         </div>
 
         {/* TL;DR Section */}
-        <section className="mb-14">
+        <section className="mb-12">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-8 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-5 font-body text-[#1C1C1C] leading-loose">
+          <ul className="space-y-5 font-body text-[#1C1C1C] leading-[1.8] max-w-[95%]">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">FOOD</span>
@@ -73,14 +73,14 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* Editor's Note */}
-        <section className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             Editor’s Note - Adam’s Corner
           </h2>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg mt-6">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg">
             <p className="mb-6">
               I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
             </p>
@@ -96,19 +96,19 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
-        <section className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <section className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Company
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
             A spotlight of beautiful people from our community.
           </p>
 
-          <div className="mb-8 flex justify-center">
+          <div className="mb-10 flex justify-center mt-6">
             <div className="w-full max-w-[450px] relative group cursor-pointer">
               {/* Nostalgic Overlay */}
               <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-10 rounded-sm pointer-events-none z-10"></div>
@@ -135,11 +135,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section id="food" className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Food
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
@@ -166,17 +166,17 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
-        <div className="bg-[#B22E21] py-8 px-4 text-center mb-14">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="bg-[#B22E21] py-8 px-4 text-center mb-12">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section id="hosting" className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Hosting
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
@@ -200,11 +200,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section id="tips" className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Tips
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
@@ -226,18 +226,18 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section id="music" className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Music
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             One song. One mood. No skips.
           </p>
           
-          <div className="mb-8 flex justify-center">
+          <div className="mb-10 flex justify-center mt-6">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" 
@@ -266,18 +266,18 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section id="design" className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Design
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Objects, spaces, and ideas done with intention.
           </p>
           
-          <div className="mb-8 flex justify-center">
+          <div className="mb-10 flex justify-center mt-6">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
@@ -312,11 +312,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-14 pt-2">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-6">
+        <section className="mb-12 pt-12">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Plans
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -340,15 +340,15 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
-          <div className="bg-[#B22E21] py-8 px-4 text-center mb-10">
+          <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+          <div className="bg-[#B22E21] py-8 px-4 text-center mb-12">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
             </p>
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-14"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
 
         {/* Today's Thought (Sign-off) */}
         <section className="mb-24 mt-16 text-center px-4">
@@ -366,7 +366,7 @@ export default function Newsletter() {
           <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 mb-8">
             For those who want the deeper cut…
           </p>
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-20 rounded-md mb-0 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-20 rounded-md mb-8 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
         </div>
