@@ -9,8 +9,8 @@ export default function Newsletter() {
       <div className="w-full max-w-[640px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-12 text-center">
-          <h1 className="font-serif text-5xl tracking-widest mb-6 font-extrabold text-[#1C1C1C]">
+        <header className="mb-10 text-center">
+          <h1 className="font-serif text-5xl tracking-widest mb-4 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
           <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase py-2 font-light">
@@ -27,7 +27,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[160px] mb-24 overflow-hidden grayscale opacity-90">
+        <div className="w-full h-[160px] mb-12 overflow-hidden grayscale opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -36,11 +36,11 @@ export default function Newsletter() {
         </div>
 
         {/* TL;DR Section */}
-        <section className="mb-24">
-          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-10 opacity-90">
+        <section className="mb-12">
+          <h2 className="font-sans text-sm font-bold tracking-widest text-[#B22E21] uppercase mb-8 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-6 font-body text-[#1C1C1C] leading-relaxed">
+          <ul className="space-y-5 font-body text-[#1C1C1C] leading-relaxed">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1">FOOD</span>
@@ -73,21 +73,21 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* Editor's Note */}
-        <section className="mb-16 pt-4">
+        <section className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             Editor’s Note - Adam’s Corner
           </h2>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg mt-8">
-            <p className="mb-12">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg mt-6">
+            <p className="mb-6">
               I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
             </p>
-            <p className="mb-12">
+            <p className="mb-6">
               I love beautiful things. I love music, food, people in their element. I love discovering something special and sharing it with the right person at the right time - that look on their face when you know you just showed them something they didn’t know they needed.
             </p>
-            <p className="mb-12">
+            <p className="mb-6">
               That’s why Chloe and I built No Bad Company. And this - No Bad News - is the extension of that instinct. A weekly drop of what I’m paying attention to, who I’m learning from, and the details I think are worth your time.
             </p>
             <p>
@@ -96,19 +96,19 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-24"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-12"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-        <section className="mb-16 pt-16">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
+        <section className="mb-12 pt-10">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Company
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             A spotlight of beautiful people from our community.
           </p>
 
-          <div className="mb-12 flex justify-center">
+          <div className="mb-10 flex justify-center">
             <div className="w-full max-w-[450px] relative group cursor-pointer">
               {/* Nostalgic Overlay */}
               <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-10 rounded-sm pointer-events-none z-10"></div>
@@ -123,39 +123,39 @@ export default function Newsletter() {
           </div>
 
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-10">
+            <p className="mb-6">
               We’ve been doing this together since high school - Houston suburb kids who watched our neighborhood quietly turn out giants (<span className="italic">shoutout</span> Mo City - 281). Somewhere between then and now, we learned that hosting isn’t about throwing parties. It’s about building rooms where people feel like themselves again.
             </p>
-            <p className="mb-10">
+            <p className="mb-6">
               The Yellow House came later. So did the careers. Chloe built her dream home in East Austin, TX - designed for gathering, and a reputation guiding people through life-changing decisions in real estate. I built rooms through culture - my prior events brand Keep It Quiet, and my hospitality foray into Devil May Care. What never changed was the instinct to bring the right people together on purpose.
             </p>
-            <p className="mb-10 font-bold text-[#B22E21]">
+            <p className="mb-6 font-bold text-[#B22E21]">
               No Bad Company is for the stories waiting to be told. For the leaders, the creators, the endlessly curious. For the builders. We believe there’s more than enough room at the top. And it’s better when we climb together.
             </p>
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-16 pt-4">
+        <section id="food" className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Food
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
             Recipes, restaurants, and things worth cooking slow.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-10">
+            <p className="mb-6">
               I come from a Cajun family of cooks and restaurant owners. My family ran a BBQ spot in Houston called Lockwood Inn from 1928 to 1996 before it burned down. My grandmother was a Cajun caterer. My mom made the best gumbo I’ve ever had - and everyone who’s ever eaten it agrees.
             </p>
-            <p className="mb-10">
+            <p className="mb-6">
               This is the gumbo I grew up on. The one people still ask about years later. The one that shows up at holidays, late nights, and when it really matters.
             </p>
-            <p className="mb-12">
+            <p className="mb-8">
               I finally filmed it.
             </p>
-            <ul className="list-none space-y-6 mb-10 pl-0">
+            <ul className="list-none space-y-4 mb-6 pl-0">
               <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">VIDEO</span> <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#1C1C1C] hover:text-[#B22E21] transition-colors decoration-[rgba(0,0,0,0.1)] underline underline-offset-4">Watch on YouTube</a></li>
               <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">RECIPE</span> <span className="text-[#1C1C1C] hover:text-[#B22E21] cursor-pointer transition-colors decoration-[rgba(0,0,0,0.1)] underline underline-offset-4">Read full recipe + ingredients</span></li>
             </ul>
@@ -166,31 +166,31 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
-        <div className="bg-[#B22E21] py-8 px-4 text-center mb-16">
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
+        <div className="bg-[#B22E21] py-8 px-4 text-center mb-10">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-16 pt-4">
+        <section id="hosting" className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Hosting
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
             Moves that make rooms feel better.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-10">
+            <p className="mb-6">
               The fastest way to level up any conversation at a party is to stop asking, “What do you do?”
             </p>
-            <p className="mb-10">Try this instead:</p>
-            <ul className="list-disc pl-5 mb-10 space-y-5 marker:text-[#B22E21]">
+            <p className="mb-6">Try this instead:</p>
+            <ul className="list-disc pl-5 mb-6 space-y-4 marker:text-[#B22E21]">
               <li>“What keeps you busy during the day?”</li>
             </ul>
-            <p className="mb-10">
+            <p className="mb-6">
               It’s broader. It’s softer. And it lets people answer however they want - career, creative projects, family, fitness, building something on the side. The energy shifts instantly.
             </p>
             <p>
@@ -200,44 +200,44 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-16 pt-4">
+        <section id="tips" className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Tips
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
             Small insights you can casually drop.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <p className="mb-10">
+            <p className="mb-6">
               They lit the Rockefeller Center Christmas tree this week - star and all. That star on top?
             </p>
-            <ul className="list-disc pl-5 mb-16 space-y-8 marker:text-[#B22E21] font-light">
+            <ul className="list-disc pl-5 mb-8 space-y-6 marker:text-[#B22E21] font-light">
               <li>It weighs over 900 pounds</li>
               <li>It’s covered in millions of crystals</li>
               <li>And it’s custom-engineered so the wind doesn’t rip it off the building</li>
             </ul>
-            <div className="mt-12 space-y-3">
+            <div className="mt-8 space-y-3">
               <p className="font-medium">It looks effortless.</p>
               <p className="font-medium">It absolutely is not.</p>
             </div>
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-16 pt-4">
+        <section id="music" className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Music
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             One song. One mood. No skips.
           </p>
           
-          <div className="mb-10 flex justify-center">
+          <div className="mb-8 flex justify-center">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" 
@@ -247,15 +247,14 @@ export default function Newsletter() {
             </div>
           </div>
           
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose mb-12">
-            <p className="mb-10">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose mb-8">
+            <p className="mb-6">
               Where the hell are you, Frank?
-              Seriously. You disappear like this every few years and just leave us hanging.
-            </p>
-            <p className="mb-10">
-              But this week I went back to “Strawberry Swing” by Frank Ocean off Nostalgia, Ultra, and yeah… it still hits. Hard.
             </p>
             <p className="mb-6">
+              But this week I went back to “Strawberry Swing” by Frank Ocean off Nostalgia, Ultra, and yeah… it still hits. Hard.
+            </p>
+            <p className="mb-4">
               Mood: reflective, wide-open, slightly unraveled
             </p>
           </div>
@@ -267,14 +266,14 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-12 pt-4">
+        <section id="design" className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Design
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Objects, spaces, and ideas done with intention.
           </p>
           
@@ -313,19 +312,19 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-16 pt-4">
+        <section className="mb-10 pt-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-2">
             No Bad Plans
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-16 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             One thing actually worth leaving the house for.
           </p>
 
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
-            <div className="mb-8">
+            <div className="mb-6">
               <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
               <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-4">
                 A Wednesday night for people who like their rooms electric and their poker competitive.
@@ -341,7 +340,7 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+          <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
           <div className="bg-[#B22E21] py-8 px-4 text-center mb-8">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
@@ -349,11 +348,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-16"></div>
+        <div className="w-full h-px bg-[rgba(0,0,0,0.06)] mb-10"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-32 mt-24 text-center px-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-8">
+        <section className="mb-24 mt-16 text-center px-4">
+          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Today’s Thought
           </h2>
           <p className="font-serif text-lg italic text-[#1C1C1C]/50 leading-loose">
@@ -367,7 +366,7 @@ export default function Newsletter() {
           <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 mb-8">
             For those who want the deeper cut…
           </p>
-          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-16 rounded-md mb-24 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
+          <button className="bg-[#B22E21] text-white font-sans font-medium py-5 px-16 rounded-md mb-20 hover:bg-[#96261c] transition-colors cursor-pointer text-sm tracking-widest shadow-none opacity-90 hover:opacity-100 uppercase">
             Join The Red List
           </button>
         </div>
