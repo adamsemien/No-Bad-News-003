@@ -9,7 +9,7 @@ export default function Newsletter() {
       <div className="w-full max-w-[680px] bg-[#F5EFE8]">
         
         {/* Masthead */}
-        <header className="mb-14 text-center">
+        <header className="mb-16 text-center">
           <h1 className="font-serif text-5xl tracking-widest mb-3 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
@@ -27,7 +27,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[160px] mb-16 overflow-hidden grayscale opacity-90">
+        <div className="w-full h-[160px] mb-20 overflow-hidden grayscale opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -36,11 +36,11 @@ export default function Newsletter() {
         </div>
 
         {/* TL;DR Section */}
-        <section className="mb-12">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-8 opacity-90">
+        <section className="mb-20">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-10 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-5 font-body text-[#1C1C1C] leading-[1.8] max-w-[95%]">
+          <ul className="space-y-6 font-body text-[#1C1C1C] leading-[1.8] max-w-[95%]">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">FOOD</span>
@@ -55,7 +55,7 @@ export default function Newsletter() {
             </li>
             <li className="group">
               <a href="#tips" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">TIPS</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">DROPS</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A Rockefeller Center flex you can steal at the bar</span>
               </a>
             </li>
@@ -73,10 +73,10 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* Editor's Note */}
-        <section className="mb-12 pt-12">
+        <section className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -96,19 +96,19 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
-        <section className="mb-12 pt-12">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <section className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Company
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             A spotlight of beautiful people from our community.
           </p>
 
-          <div className="mb-10 flex justify-center mt-6">
+          <div className="mb-12 flex justify-center mt-8">
             <div className="w-full max-w-[450px] relative group cursor-pointer">
               {/* Nostalgic Overlay */}
               <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-10 rounded-sm pointer-events-none z-10"></div>
@@ -135,14 +135,14 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-12 pt-12">
+        <section id="food" className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Food
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Recipes, restaurants, and things worth cooking slow.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -166,20 +166,20 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
-        <div className="bg-[#B22E21] py-8 px-4 text-center mb-12">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="bg-[#B22E21] py-10 px-4 text-center mb-20">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-12 pt-12">
+        <section id="hosting" className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Hosting
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Moves that make rooms feel better.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -200,14 +200,14 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-12 pt-12">
+        <section id="tips" className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
-            No Bad Tips
+            No Bad Drops
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-6 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Small insights you can casually drop.
           </p>
           <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
@@ -226,18 +226,18 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-12 pt-12">
+        <section id="music" className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Music
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             One song. One mood. No skips.
           </p>
           
-          <div className="mb-10 flex justify-center mt-6">
+          <div className="mb-12 flex justify-center mt-8">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg" 
@@ -266,18 +266,18 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-12 pt-12">
+        <section id="design" className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Design
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
             Objects, spaces, and ideas done with intention.
           </p>
           
-          <div className="mb-10 flex justify-center mt-6">
+          <div className="mb-12 flex justify-center mt-8">
             <div className="w-full max-w-[400px]">
               <img 
                 src="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format" 
@@ -312,14 +312,14 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-12 pt-12">
+        <section className="mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Plans
           </h2>
-          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
+          <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
             One thing actually worth leaving the house for.
           </p>
 
@@ -340,18 +340,18 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
-          <div className="bg-[#B22E21] py-8 px-4 text-center mb-12">
+          <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+          <div className="bg-[#B22E21] py-10 px-4 text-center mb-20">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
             </p>
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-24 mt-16 text-center px-4">
+        <section className="mb-24 mt-20 text-center px-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Today’s Thought
           </h2>
