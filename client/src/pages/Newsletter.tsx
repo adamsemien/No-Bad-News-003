@@ -1,6 +1,6 @@
 import React from "react";
-import bannerImage from "@assets/Music_Playlist_Banner_640x140_1765390874164.jpg";
-import communitySpotlightImage from "@assets/IMG_5189_1765408932145.png";
+import bannerImage from "@assets/banner_processed.jpg";
+import communitySpotlightImage from "@assets/spotlight_processed.png";
 
 export default function Newsletter() {
   return (
@@ -27,7 +27,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[160px] mb-20 overflow-hidden grayscale opacity-90">
+        <div className="w-full h-[160px] mb-12 md:mb-20 overflow-hidden opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -36,8 +36,8 @@ export default function Newsletter() {
         </div>
 
         {/* TL;DR Section */}
-        <section className="mb-20">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-10 opacity-90">
+        <section className="mb-12 md:mb-20">
+          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-8 md:mb-10 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
           <ul className="space-y-6 font-body text-[#1C1C1C] leading-[1.8] max-w-[95%]">
@@ -73,10 +73,10 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* Editor's Note */}
-        <section className="mb-20 pt-4">
+        <section className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -96,11 +96,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
-        <section className="mb-20 pt-4">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
+        <section className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Company
           </h2>
@@ -110,14 +110,14 @@ export default function Newsletter() {
 
           <div className="mb-12 flex justify-center mt-8">
             <div className="w-full max-w-[450px] relative group cursor-pointer">
-              {/* Nostalgic Overlay */}
-              <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-10 rounded-sm pointer-events-none z-10"></div>
+              {/* Nostalgic Overlay - Kept for hover effect but base image is processed */}
+              <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-0 rounded-sm pointer-events-none z-10 transition-opacity duration-700"></div>
               <div className="absolute inset-0 bg-gradient-to-tr from-[#B22E21]/10 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-700 z-10 rounded-sm"></div>
               
               <img 
                 src={communitySpotlightImage}
                 alt="Community Spotlight" 
-                className="w-full rounded-sm object-cover aspect-square sepia-[.25] contrast-[0.9] brightness-[1.05] saturate-[0.85] group-hover:sepia-0 group-hover:contrast-100 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-700 ease-out shadow-sm"
+                className="w-full rounded-sm object-cover aspect-square shadow-sm transition-all duration-700 ease-out group-hover:contrast-100 group-hover:brightness-100"
               />
             </div>
           </div>
@@ -135,10 +135,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-20 pt-4">
+        <section id="food" className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Food
           </h2>
@@ -166,16 +166,16 @@ export default function Newsletter() {
         </section>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
-        <div className="bg-[#B22E21] py-10 px-4 text-center mb-20">
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
+        <div className="bg-[#B22E21] py-10 px-4 text-center mb-12 md:mb-20">
           <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-20 pt-4">
+        <section id="hosting" className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Hosting
           </h2>
@@ -200,10 +200,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-20 pt-4">
+        <section id="tips" className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Drops
           </h2>
@@ -226,10 +226,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-20 pt-4">
+        <section id="music" className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Music
           </h2>
@@ -266,10 +266,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-20 pt-4">
+        <section id="design" className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Design
           </h2>
@@ -312,10 +312,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-20 pt-4">
+        <section className="mb-12 md:mb-20 pt-4">
           <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
             No Bad Plans
           </h2>
@@ -340,18 +340,18 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
-          <div className="bg-[#B22E21] py-10 px-4 text-center mb-20">
+          <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
+          <div className="bg-[#B22E21] py-10 px-4 text-center mb-12 md:mb-20">
             <p className="font-sans text-xs tracking-widest uppercase text-[#F5EFE8] italic opacity-90">
               This space is reserved for a brand we genuinely believe in.
             </p>
           </div>
         </section>
 
-        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-20"></div>
+        <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-24 mt-20 text-center px-4">
+        <section className="mb-24 mt-12 md:mt-20 text-center px-4">
           <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Today’s Thought
           </h2>
