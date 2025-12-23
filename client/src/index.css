@@ -53,21 +53,21 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: hsl(40 10% 97%); /* #F9F8F6 - Premium Ivory */
-  --color-foreground: hsl(0 0% 10%);   /* #1A1A1A - Deep Charcoal */
+  --color-background: #F5EFE8; /* Ivory / Cream */
+  --color-foreground: #1C1C1C; /* Ink */
   
-  --color-primary: hsl(0 0% 10%);
-  --color-primary-foreground: hsl(40 10% 97%);
+  --color-primary: #1C1C1C;
+  --color-primary-foreground: #F5EFE8;
   
-  --color-accent: hsl(6 63% 35%); /* #922218 - Muted Brick Red */
-  --color-accent-foreground: hsl(0 0% 100%);
+  --color-accent: #B22E21; /* NBC Red */
+  --color-accent-foreground: #F5EFE8;
   
-  --color-muted: hsl(24 15% 13%);
-  --color-muted-foreground: hsl(40 10% 97%);
+  --color-muted: #2A1F1A;
+  --color-muted-foreground: #F5EFE8;
   
-  --color-border: rgba(26,26,26,0.1);
-  --color-input: rgba(26,26,26,0.1);
-  --color-ring: hsl(6 63% 35%);
+  --color-border: rgba(0,0,0,0.06); /* Hairline */
+  --color-input: rgba(28,28,28,0.1);
+  --color-ring: #B22E21;
 
   --font-serif: 'PP Editorial New', serif;
   --font-sans: 'Neue Haas Grotesk Display Pro', sans-serif;
