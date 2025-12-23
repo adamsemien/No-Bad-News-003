@@ -178,9 +178,12 @@ export default function Newsletter() {
 
         {/* Sponsor Slot 1 */}
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-        <div className="border border-[rgba(0,0,0,0.06)] py-12 px-6 text-center mb-24 bg-transparent">
+        <div 
+          className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-24 bg-transparent"
+          style={{ boxShadow: 'inset 2px 0 0 0 #B22E21' }}
+        >
           <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
-            This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
+            <span className="text-[#B22E21]">PARTNER OPPORTUNITY:</span> THIS SPACE IS <span className="text-[#B22E21]">RESERVED</span> FOR A BRAND WE GENUINELY BELIEVE IN.
           </p>
         </div>
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
@@ -352,9 +355,12 @@ export default function Newsletter() {
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
           <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-          <div className="border border-[rgba(0,0,0,0.06)] py-12 px-6 text-center mb-24 bg-transparent">
+          <div 
+            className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-24 bg-transparent"
+            style={{ boxShadow: 'inset 2px 0 0 0 #B22E21' }}
+          >
             <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
-              This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
+              <span className="text-[#B22E21]">PARTNER OPPORTUNITY:</span> THIS SPACE IS <span className="text-[#B22E21]">RESERVED</span> FOR A BRAND WE GENUINELY BELIEVE IN.
             </p>
           </div>
         </section>
