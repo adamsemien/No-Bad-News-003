@@ -5,15 +5,15 @@ import chloeGameImage from "@assets/chloegamestaff_1766515584240.jpeg";
 
 export default function Newsletter() {
   return (
-    <div className="min-h-screen flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 relative" style={{ background: 'radial-gradient(circle at center, #F5EFE8 0%, #F2EAE2 100%)' }}>
+    <div className="min-h-screen flex flex-col items-center py-12 md:py-24 px-4 sm:px-6 lg:px-8 relative" style={{ background: 'radial-gradient(circle at center, #F5EFE8 0%, #F2EAE2 100%)' }}>
       <div className="noise-overlay"></div>
       {/* Email Container - Simulating standard email width */}
       <div className="w-full max-w-[680px] bg-transparent relative z-10">
         
         {/* Masthead */}
-        <header className="mb-24 pt-8 px-8">
+        <header className="mb-12 md:mb-24 pt-8 px-8">
           <div className="flex flex-col items-center">
-            <h1 className="font-serif text-6xl tracking-[-0.04em] mb-6 font-extrabold text-[#1C1C1C] relative text-center w-full">
+            <h1 className="font-serif text-4xl md:text-6xl tracking-[-0.04em] mb-6 font-extrabold text-[#1C1C1C] relative text-center w-full">
               <span className="text-[#B22E21]">NO BAD</span> NEWS
             </h1>
             
@@ -33,7 +33,7 @@ export default function Newsletter() {
         </header>
 
         {/* Quiet Top Banner */}
-        <div className="w-full h-[180px] mb-24 overflow-hidden opacity-90">
+        <div className="w-full h-[180px] mb-12 md:mb-24 overflow-hidden opacity-90">
           <img 
             src={bannerImage}
             alt="Atmospheric texture" 
@@ -42,7 +42,7 @@ export default function Newsletter() {
         </div>
 
         {/* TL;DR Section */}
-        <section className="mb-24">
+        <section className="mb-12 md:mb-24">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] uppercase mb-10 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
@@ -79,10 +79,10 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* Editor's Note */}
-        <section className="mb-24 pt-8">
+        <section className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             Editor’s Note - Adam’s Corner
           </h2>
@@ -102,11 +102,11 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-        <section className="mb-24 pt-8">
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
+        <section className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Company
           </h2>
@@ -145,10 +145,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Food */}
-        <section id="food" className="mb-24 pt-8">
+        <section id="food" className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Food
           </h2>
@@ -178,19 +178,19 @@ export default function Newsletter() {
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* Sponsor Slot 1 */}
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
         <div 
-          className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-24 bg-transparent"
+          className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-12 md:mb-24 bg-transparent"
           style={{ boxShadow: 'inset 2px 0 0 0 #B22E21' }}
         >
-          <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
+          <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90 text-balance">
             <span className="text-[#B22E21]">PARTNER OPPORTUNITY:</span> THIS SPACE IS <span className="text-[#B22E21]">RESERVED</span> FOR A BRAND WE GENUINELY BELIEVE IN.
           </p>
         </div>
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Hosting */}
-        <section id="hosting" className="mb-24 pt-8">
+        <section id="hosting" className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Hosting
           </h2>
@@ -215,10 +215,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Tips */}
-        <section id="tips" className="mb-24 pt-8">
+        <section id="tips" className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Drops
           </h2>
@@ -241,10 +241,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Music */}
-        <section id="music" className="mb-24 pt-8">
+        <section id="music" className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Music
           </h2>
@@ -281,10 +281,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Design */}
-        <section id="design" className="mb-24 pt-8">
+        <section id="design" className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Design
           </h2>
@@ -327,10 +327,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* No Bad Plans */}
-        <section className="mb-24 pt-8">
+        <section className="mb-12 md:mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Plans
           </h2>
@@ -338,7 +338,7 @@ export default function Newsletter() {
             One thing actually worth leaving the house for.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12 md:mb-24">
             <div className="order-2 md:order-1">
               <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
                 <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
@@ -350,7 +350,7 @@ export default function Newsletter() {
                   <span>•</span>
                   <span>Austin, TX</span>
                   <span>•</span>
-                  <a href="#" className="underline decoration-[#B22E21]/30 underline-offset-4 hover:text-[#1C1C1C] transition-colors">Request Invite</a>
+                  <a href="#" className="underline decoration-[#B22E21]/30 underline-offset-4 hover:text-[#1C1C1C] transition-colors inline-block py-2 md:py-0">Request Invite</a>
                 </div>
               </div>
             </div>
@@ -365,21 +365,21 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+          <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
           <div 
-            className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-24 bg-transparent"
+            className="border-[0.5px] border-[#1C1C1C] py-12 px-6 text-center mb-12 md:mb-24 bg-transparent"
             style={{ boxShadow: 'inset 2px 0 0 0 #B22E21' }}
           >
-            <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
+            <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90 text-balance">
               <span className="text-[#B22E21]">PARTNER OPPORTUNITY:</span> THIS SPACE IS <span className="text-[#B22E21]">RESERVED</span> FOR A BRAND WE GENUINELY BELIEVE IN.
             </p>
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
 
         {/* Today's Thought (Sign-off) */}
-        <section className="mb-24 mt-12 md:mt-20 text-center px-4">
+        <section className="mb-12 md:mb-24 mt-12 md:mt-20 text-center px-4">
           <h2 className="font-serif text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Today’s Thought
           </h2>
