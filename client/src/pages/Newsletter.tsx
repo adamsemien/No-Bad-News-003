@@ -1,6 +1,7 @@
 import React from "react";
 import bannerImage from "@assets/banner_processed.jpg";
 import communitySpotlightImage from "@assets/spotlight_processed.png";
+import chloeGameImage from "@assets/chloegamestaff_1766515584240.jpeg";
 
 export default function Newsletter() {
   return (
@@ -336,6 +337,16 @@ export default function Newsletter() {
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
             One thing actually worth leaving the house for.
           </p>
+
+          <div className="mb-14 flex justify-center mt-10">
+            <div className="w-full max-w-[450px]">
+              <img 
+                src={chloeGameImage}
+                alt="Chloe's Game Staff" 
+                className="w-full object-cover aspect-[3/2] shadow-none"
+              />
+            </div>
+          </div>
 
           <div className="prose prose-neutral max-w-[600px] font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <div className="mb-6">
