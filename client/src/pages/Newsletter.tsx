@@ -390,7 +390,7 @@ export default function Newsletter() {
         </section>
 
         {/* Footer */}
-        <div className="text-center pb-32">
+        <div className="text-center mb-24">
           <p className="font-sans text-xs tracking-widest uppercase text-[#1C1C1C]/40 mb-8">
             For those who want the deeper cut…
           </p>
@@ -398,13 +398,25 @@ export default function Newsletter() {
             Join The Red List
           </button>
         </div>
-      </div>
-      
-      {/* Full Width Footer Band */}
-      <div className="w-full bg-[#1C1C1C]/95 h-[70px] flex items-center justify-center mt-0">
-        <p className="font-sans text-xs text-[#F5EFE8]/60 tracking-widest uppercase m-0 p-0">
-          “No Bad Company - for stories that need to be told.”
-        </p>
+
+        {/* Final Divider */}
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/6 mb-12 md:mb-24"></div>
+
+        {/* Footer Signature & Legal */}
+        <div className="flex flex-col items-center pb-24 text-center w-full">
+          <p className="font-serif italic text-[14px] text-[#1C1C1C] tracking-[0.05em] mb-12">
+            No Bad Company — For stories that need to be told.
+          </p>
+          
+          <div className="flex flex-col gap-2 font-sans text-[10px] uppercase text-[#1C1C1C] opacity-40 tracking-wider">
+             <p>© 2024 No Bad Company. All Rights Reserved.</p>
+             <div className="flex gap-4 justify-center">
+               <a href="#" className="hover:text-[#B22E21] transition-colors decoration-transparent">Unsubscribe</a>
+               <span>•</span>
+               <a href="#" className="hover:text-[#B22E21] transition-colors decoration-transparent">Privacy</a>
+             </div>
+          </div>
+        </div>
       </div>
     </div>
   );
