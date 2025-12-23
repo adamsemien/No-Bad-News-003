@@ -10,7 +10,7 @@ export default function Newsletter() {
         
         {/* Masthead */}
         <header className="mb-16 text-center">
-          <h1 className="font-serif text-5xl tracking-widest mb-3 font-extrabold text-[#1C1C1C]">
+          <h1 className="font-serif text-5xl tracking-tight mb-3 font-extrabold text-[#1C1C1C]">
             <span className="text-[#B22E21]">NO BAD</span> NEWS
           </h1>
           <div className="flex justify-center mb-3">
@@ -37,10 +37,10 @@ export default function Newsletter() {
 
         {/* TL;DR Section */}
         <section className="mb-12 md:mb-20">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] uppercase mb-8 md:mb-10 opacity-90">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] uppercase mb-8 md:mb-10 opacity-90">
             TL;DR - This Week in No Bad News
           </h2>
-          <ul className="space-y-6 font-body text-[#1C1C1C] leading-[1.8] max-w-[95%]">
+          <ul className="space-y-6 font-body text-[#1C1C1C] text-[17px] leading-[1.6] max-w-[95%]">
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">FOOD</span>
@@ -77,10 +77,10 @@ export default function Newsletter() {
 
         {/* Editor's Note */}
         <section className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             Editor’s Note - Adam’s Corner
           </h2>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose text-lg">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
             </p>
@@ -101,7 +101,7 @@ export default function Newsletter() {
         {/* No Bad Company - Community Spotlight (FEATURE) */}
         <div className="w-[60%] mx-auto h-px bg-[#1C1C1C]/10 mb-12 md:mb-20"></div>
         <section className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Company
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
@@ -122,7 +122,7 @@ export default function Newsletter() {
             </div>
           </div>
 
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               We’ve been doing this together since high school - Houston suburb kids who watched our neighborhood quietly turn out giants (<span className="italic">shoutout</span> Mo City - 281). Somewhere between then and now, we learned that hosting isn’t about throwing parties. It’s about building rooms where people feel like themselves again.
             </p>
@@ -139,13 +139,13 @@ export default function Newsletter() {
 
         {/* No Bad Food */}
         <section id="food" className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Food
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Recipes, restaurants, and things worth cooking slow.
           </p>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               I come from a Cajun family of cooks and restaurant owners. My family ran a BBQ spot in Houston called Lockwood Inn from 1928 to 1996 before it burned down. My grandmother was a Cajun caterer. My mom made the best gumbo I’ve ever had - and everyone who’s ever eaten it agrees.
             </p>
@@ -176,13 +176,13 @@ export default function Newsletter() {
 
         {/* No Bad Hosting */}
         <section id="hosting" className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Hosting
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Moves that make rooms feel better.
           </p>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               The fastest way to level up any conversation at a party is to stop asking, “What do you do?”
             </p>
@@ -204,13 +204,13 @@ export default function Newsletter() {
 
         {/* No Bad Tips */}
         <section id="tips" className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Drops
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-8 font-medium">
             Small insights you can casually drop.
           </p>
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               They lit the Rockefeller Center Christmas tree this week - star and all. That star on top?
             </p>
@@ -230,7 +230,7 @@ export default function Newsletter() {
 
         {/* No Bad Music */}
         <section id="music" className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Music
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -247,7 +247,7 @@ export default function Newsletter() {
             </div>
           </div>
           
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose mb-8">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6] mb-8">
             <p className="mb-6">
               Where the hell are you, Frank?
             </p>
@@ -270,7 +270,7 @@ export default function Newsletter() {
 
         {/* No Bad Design */}
         <section id="design" className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Design
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -287,7 +287,7 @@ export default function Newsletter() {
             </div>
           </div>
           
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-relaxed">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <p className="mb-6">
               This week’s obsession is Nikolas Bentel Studio.
             </p>
@@ -316,14 +316,14 @@ export default function Newsletter() {
 
         {/* No Bad Plans */}
         <section className="mb-12 md:mb-20 pt-4">
-          <h2 className="font-sans text-2xl font-bold tracking-wide text-[#B22E21] mb-8">
+          <h2 className="font-serif text-2xl font-bold tracking-tight text-[#B22E21] mb-8">
             No Bad Plans
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
             One thing actually worth leaving the house for.
           </p>
 
-          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] leading-loose">
+          <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             <div className="mb-6">
               <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
               <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-4">
@@ -352,7 +352,7 @@ export default function Newsletter() {
 
         {/* Today's Thought (Sign-off) */}
         <section className="mb-24 mt-12 md:mt-20 text-center px-4">
-          <h2 className="font-sans text-xl font-bold tracking-tight text-[#B22E21] mb-6">
+          <h2 className="font-serif text-xl font-bold tracking-tight text-[#B22E21] mb-6">
             Today’s Thought
           </h2>
           <p className="font-serif text-lg italic text-[#1C1C1C]/50 leading-loose">
