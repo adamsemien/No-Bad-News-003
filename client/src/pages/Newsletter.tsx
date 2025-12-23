@@ -4,9 +4,10 @@ import communitySpotlightImage from "@assets/spotlight_processed.png";
 
 export default function Newsletter() {
   return (
-    <div className="min-h-screen bg-[#F5EFE8] flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#F5EFE8] flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 relative">
+      <div className="noise-overlay"></div>
       {/* Email Container - Simulating standard email width */}
-      <div className="w-full max-w-[680px] bg-[#F5EFE8]">
+      <div className="w-full max-w-[680px] bg-[#F5EFE8] relative z-10">
         
         {/* Masthead */}
         <header className="mb-24 text-center pt-8">
@@ -73,7 +74,7 @@ export default function Newsletter() {
             </li>
           </ul>
         </section>
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* Editor's Note */}
         <section className="mb-24 pt-8">
@@ -96,10 +97,10 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Company - Community Spotlight (FEATURE) */}
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
         <section className="mb-24 pt-8">
           <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#B22E21] mb-10">
             No Bad Company
@@ -108,34 +109,38 @@ export default function Newsletter() {
             A spotlight of beautiful people from our community.
           </p>
 
-          <div className="mb-14 flex justify-center mt-10">
-            <div className="w-full max-w-[450px] relative group cursor-pointer">
-              {/* Nostalgic Overlay - Kept for hover effect but base image is processed */}
-              <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-0 pointer-events-none z-10 transition-opacity duration-700"></div>
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#B22E21]/10 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-700 z-10"></div>
-              
-              <img 
-                src={communitySpotlightImage}
-                alt="Community Spotlight" 
-                className="w-full object-cover aspect-square shadow-none transition-all duration-700 ease-out group-hover:contrast-100 group-hover:brightness-100"
-              />
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="w-full md:w-1/2 flex justify-center">
+              <div className="w-full max-w-[450px] relative group cursor-pointer">
+                {/* Nostalgic Overlay - Kept for hover effect but base image is processed */}
+                <div className="absolute inset-0 bg-[#5C4033] mix-blend-screen opacity-0 pointer-events-none z-10 transition-opacity duration-700"></div>
+                <div className="absolute inset-0 bg-gradient-to-tr from-[#B22E21]/10 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-700 z-10"></div>
+                
+                <img 
+                  src={communitySpotlightImage}
+                  alt="Community Spotlight" 
+                  className="w-full object-cover aspect-square shadow-none transition-all duration-700 ease-out group-hover:contrast-100 group-hover:brightness-100"
+                />
+              </div>
             </div>
-          </div>
 
-          <div className="prose prose-neutral max-w-[600px] font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
-            <p className="mb-6">
-              We’ve been doing this together since high school - Houston suburb kids who watched our neighborhood quietly turn out giants (<span className="italic">shoutout</span> Mo City - 281). Somewhere between then and now, we learned that hosting isn’t about throwing parties. It’s about building rooms where people feel like themselves again.
-            </p>
-            <p className="mb-6">
-              The Yellow House came later. So did the careers. Chloe built her dream home in East Austin, TX - designed for gathering, and a reputation guiding people through life-changing decisions in real estate. I built rooms through culture - my prior events brand Keep It Quiet, and my hospitality foray into Devil May Care. What never changed was the instinct to bring the right people together on purpose.
-            </p>
-            <p className="mb-6 font-bold text-[#B22E21]">
-              No Bad Company is for the stories waiting to be told. For the leaders, the creators, the endlessly curious. For the builders. We believe there’s more than enough room at the top. And it’s better when we climb together.
-            </p>
+            <div className="w-full md:w-1/2 flex items-center">
+              <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
+                <p className="mb-6">
+                  We’ve been doing this together since high school - Houston suburb kids who watched our neighborhood quietly turn out giants (<span className="italic">shoutout</span> Mo City - 281). Somewhere between then and now, we learned that hosting isn’t about throwing parties. It’s about building rooms where people feel like themselves again.
+                </p>
+                <p className="mb-6">
+                  The Yellow House came later. So did the careers. Chloe built her dream home in East Austin, TX - designed for gathering, and a reputation guiding people through life-changing decisions in real estate. I built rooms through culture - my prior events brand Keep It Quiet, and my hospitality foray into Devil May Care. What never changed was the instinct to bring the right people together on purpose.
+                </p>
+                <p className="mb-6 font-bold text-[#B22E21] leading-[1.8]">
+                  No Bad Company is for the stories waiting to be told. For the leaders, the creators, the endlessly curious. For the builders. We believe there’s more than enough room at the top. And it’s better when we climb together.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Food */}
         <section id="food" className="mb-24 pt-8">
@@ -165,14 +170,16 @@ export default function Newsletter() {
           </div>
         </section>
 
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
+
         {/* Sponsor Slot 1 */}
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
         <div className="bg-[#B22E21] py-12 px-6 text-center mb-24">
           <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#F5EFE8] opacity-90">
             This space is reserved for a brand we genuinely believe in.
           </p>
         </div>
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Hosting */}
         <section id="hosting" className="mb-24 pt-8">
@@ -200,7 +207,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Tips */}
         <section id="tips" className="mb-24 pt-8">
@@ -226,7 +233,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Music */}
         <section id="music" className="mb-24 pt-8">
@@ -266,7 +273,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Design */}
         <section id="design" className="mb-24 pt-8">
@@ -312,7 +319,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* No Bad Plans */}
         <section className="mb-24 pt-8">
@@ -340,7 +347,7 @@ export default function Newsletter() {
           </div>
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
-          <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+          <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
           <div className="bg-[#B22E21] py-12 px-6 text-center mb-24">
             <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#F5EFE8] opacity-90">
               This space is reserved for a brand we genuinely believe in.
@@ -348,7 +355,7 @@ export default function Newsletter() {
           </div>
         </section>
 
-        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24"></div>
+        <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
 
         {/* Today's Thought (Sign-off) */}
         <section className="mb-24 mt-12 md:mt-20 text-center px-4">
