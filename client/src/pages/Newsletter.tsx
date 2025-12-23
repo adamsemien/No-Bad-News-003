@@ -338,29 +338,29 @@ export default function Newsletter() {
             One thing actually worth leaving the house for.
           </p>
 
-          <div className="mb-14 flex justify-center mt-10">
-            <div className="w-full max-w-[450px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+            <div className="order-2 md:order-1">
+              <div className="prose prose-neutral max-w-none font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
+                <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
+                <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-6 tracking-[-0.01em]">
+                  A Wednesday night for people who like their rooms electric and their poker competitive.
+                </p>
+                <div className="flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-[#B22E21]">
+                  <span>Wednesdays</span>
+                  <span>•</span>
+                  <span>Austin, TX</span>
+                  <span>•</span>
+                  <a href="#" className="underline decoration-[#B22E21]/30 underline-offset-4 hover:text-[#1C1C1C] transition-colors">Request Invite</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="order-1 md:order-2 w-full">
               <img 
                 src={chloeGameImage}
                 alt="Chloe's Game Staff" 
-                className="w-full object-cover aspect-[3/2] shadow-none"
+                className="w-full object-cover aspect-[3/2] shadow-none border border-[#1C1C1C]/6 opacity-95"
               />
-            </div>
-          </div>
-
-          <div className="prose prose-neutral max-w-[600px] font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
-            <div className="mb-6">
-              <h3 className="font-serif text-2xl text-[#1C1C1C] mb-2">Chloe’s Game</h3>
-              <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-4">
-                A Wednesday night for people who like their rooms electric and their poker competitive.
-              </p>
-              <div className="flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-[#B22E21]">
-                <span>Wednesdays</span>
-                <span>•</span>
-                <span>Austin, TX</span>
-                <span>•</span>
-                <a href="#" className="underline decoration-[#B22E21]/30 underline-offset-4 hover:text-[#1C1C1C] transition-colors">Request Invite</a>
-              </div>
             </div>
           </div>
 
