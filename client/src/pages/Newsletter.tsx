@@ -4,10 +4,10 @@ import communitySpotlightImage from "@assets/spotlight_processed.png";
 
 export default function Newsletter() {
   return (
-    <div className="min-h-screen bg-[#F5EFE8] flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 relative">
+    <div className="min-h-screen flex flex-col items-center py-24 px-4 sm:px-6 lg:px-8 relative" style={{ background: 'radial-gradient(circle at center, #F5EFE8 0%, #F2EAE2 100%)' }}>
       <div className="noise-overlay"></div>
       {/* Email Container - Simulating standard email width */}
-      <div className="w-full max-w-[680px] bg-[#F5EFE8] relative z-10">
+      <div className="w-full max-w-[680px] bg-transparent relative z-10">
         
         {/* Masthead */}
         <header className="mb-24 pt-8 px-8">
@@ -178,7 +178,7 @@ export default function Newsletter() {
 
         {/* Sponsor Slot 1 */}
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-        <div className="border border-[#2A1F1A]/10 py-12 px-6 text-center mb-24">
+        <div className="border border-[rgba(0,0,0,0.06)] py-12 px-6 text-center mb-24 bg-transparent">
           <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
             This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
           </p>
@@ -352,7 +352,7 @@ export default function Newsletter() {
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
           <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-          <div className="border border-[#2A1F1A]/10 py-12 px-6 text-center mb-24">
+          <div className="border border-[rgba(0,0,0,0.06)] py-12 px-6 text-center mb-24 bg-transparent">
             <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
               This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
             </p>
