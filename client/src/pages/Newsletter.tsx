@@ -365,7 +365,7 @@ export default function Newsletter() {
               <img 
                 src={chloeGameImage}
                 alt="Chloe's Game Staff" 
-                className="w-full object-cover aspect-[3/2] shadow-none border border-[#1C1C1C]/6"
+                className="w-full object-cover aspect-square shadow-none border border-[#1C1C1C]/6 relative z-[60]"
               />
             </div>
           </div>
