@@ -10,20 +10,24 @@ export default function Newsletter() {
       <div className="w-full max-w-[680px] bg-[#F5EFE8] relative z-10">
         
         {/* Masthead */}
-        <header className="mb-24 text-center pt-8">
-          <h1 className="font-serif text-6xl tracking-[-0.04em] mb-6 font-extrabold text-[#1C1C1C]">
-            <span className="text-[#B22E21]">NO BAD</span> NEWS
-          </h1>
-          <div className="flex justify-center mb-6">
-            <div className="w-20 h-[1px] bg-[#1C1C1C]"></div>
-          </div>
-          <div className="flex items-center justify-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase py-1 font-light">
-            <span className="opacity-80">Issue 001</span>
-            <span className="opacity-40">•</span>
-            <span className="opacity-80">Friday Morning</span>
-          </div>
-          <div className="font-serif text-lg tracking-wide text-[#1C1C1C] mt-3 mb-6 italic">
-            For the stories that need to be told.
+        <header className="mb-24 pt-8 px-8">
+          <div className="flex flex-col items-center">
+            <h1 className="font-serif text-6xl tracking-[-0.04em] mb-6 font-extrabold text-[#1C1C1C] relative text-center w-full">
+              <span className="text-[#B22E21]">NO BAD</span> NEWS
+            </h1>
+            
+            <div className="w-full max-w-[400px] flex flex-col items-center sm:items-start pl-0 sm:pl-12">
+              <div className="w-20 h-[1px] bg-[#1C1C1C] mb-6"></div>
+              <div className="flex items-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase py-1 font-light">
+                <span className="opacity-80">Issue 001</span>
+                <span className="opacity-40">•</span>
+                <span className="opacity-80">Friday Morning</span>
+              </div>
+            </div>
+            
+            <div className="font-serif italic text-lg tracking-[0.05em] text-[#1C1C1C] mt-6 mb-6 text-center">
+              For the stories that need to be told.
+            </div>
           </div>
         </header>
 
@@ -174,9 +178,9 @@ export default function Newsletter() {
 
         {/* Sponsor Slot 1 */}
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-        <div className="bg-[#B22E21] py-12 px-6 text-center mb-24">
-          <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#F5EFE8] opacity-90">
-            This space is reserved for a brand we genuinely believe in.
+        <div className="border border-[#2A1F1A]/10 py-12 px-6 text-center mb-24">
+          <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
+            This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
           </p>
         </div>
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
@@ -348,9 +352,9 @@ export default function Newsletter() {
 
           {/* Sponsor Slot 2 (Inside No Bad Plans - Below Feature) */}
           <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-24 mt-12"></div>
-          <div className="bg-[#B22E21] py-12 px-6 text-center mb-24">
-            <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#F5EFE8] opacity-90">
-              This space is reserved for a brand we genuinely believe in.
+          <div className="border border-[#2A1F1A]/10 py-12 px-6 text-center mb-24">
+            <p className="font-sans font-bold text-xs tracking-widest uppercase text-[#1C1C1C] opacity-90">
+              This space is <span className="text-[#B22E21]">RESERVED</span> for a brand we genuinely believe in.
             </p>
           </div>
         </section>
