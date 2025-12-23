@@ -345,6 +345,12 @@ export default function Newsletter() {
                 <p className="font-serif italic text-lg text-[#1C1C1C]/60 mb-6 tracking-[-0.01em]">
                   A Wednesday night for people who like their rooms electric and their poker competitive.
                 </p>
+                <p className="mb-6">
+                  This September, we're returning to the table. The buy-in has changed, but the spirit hasn't. It's about the hands you're dealt and the company you keep. We're setting up at a new secret location in East Austin that feels less like a venue and more like a living room you never want to leave.
+                </p>
+                <p className="mb-6">
+                  Expect curated cocktails, a soundtrack that doesn't quit, and a room full of people who are building the future of this city. It's not just about the cards; it's about the conversation between the shuffles.
+                </p>
                 <div className="flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-[#B22E21]">
                   <span>Wednesdays</span>
                   <span>•</span>
@@ -359,7 +365,7 @@ export default function Newsletter() {
               <img 
                 src={chloeGameImage}
                 alt="Chloe's Game Staff" 
-                className="w-full object-cover aspect-[3/2] shadow-none border border-[#1C1C1C]/6 opacity-95"
+                className="w-full object-cover aspect-[3/2] shadow-none border border-[#1C1C1C]/6"
               />
             </div>
           </div>
