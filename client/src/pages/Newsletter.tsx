@@ -43,7 +43,7 @@ export default function Newsletter() {
 
         {/* TL;DR Section */}
         <section className="mb-12 md:mb-24">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] uppercase mb-10 opacity-90 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] uppercase mb-10 opacity-90 scroll-mt-12">
             TL;DR - This Week in No Bad News
           </h2>
           <ul className="space-y-6 font-body text-[#1C1C1C] text-[17px] leading-[1.6] max-w-[95%]">
@@ -83,7 +83,7 @@ export default function Newsletter() {
 
         {/* Editor's Note */}
         <section className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             Editor’s Note - Adam’s Corner
           </h2>
           <div className="prose prose-neutral max-w-[600px] font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
@@ -107,7 +107,7 @@ export default function Newsletter() {
         {/* No Bad Company - Community Spotlight (FEATURE) */}
         <div className="w-[80%] mx-auto h-[1px] bg-[#1C1C1C]/10 mb-12 md:mb-24 mt-12"></div>
         <section className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Company
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -149,7 +149,7 @@ export default function Newsletter() {
 
         {/* No Bad Food */}
         <section id="food" className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Food
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -191,7 +191,7 @@ export default function Newsletter() {
 
         {/* No Bad Hosting */}
         <section id="hosting" className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Hosting
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -219,7 +219,7 @@ export default function Newsletter() {
 
         {/* No Bad Tips */}
         <section id="tips" className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Drops
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -245,7 +245,7 @@ export default function Newsletter() {
 
         {/* No Bad Music */}
         <section id="music" className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Music
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -285,7 +285,7 @@ export default function Newsletter() {
 
         {/* No Bad Design */}
         <section id="design" className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Design
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-10 font-medium">
@@ -331,7 +331,7 @@ export default function Newsletter() {
 
         {/* No Bad Plans */}
         <section className="mb-12 md:mb-24 pt-8">
-          <h2 className="font-serif text-3xl font-bold tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
+          <h2 className="font-serif text-3xl font-normal tracking-[-0.04em] text-[#1C1C1C] mb-10 scroll-mt-12">
             No Bad Plans
           </h2>
           <p className="font-body text-sm italic text-[#1C1C1C]/60 mb-12 font-medium">
@@ -386,7 +386,7 @@ export default function Newsletter() {
 
         {/* Today's Thought (Sign-off) */}
         <section className="mb-12 md:mb-24 mt-12 md:mt-20 text-center px-4">
-          <h2 className="font-serif text-xl font-bold tracking-tight text-[#1C1C1C] mb-6 scroll-mt-12">
+          <h2 className="font-serif text-xl font-normal tracking-tight text-[#1C1C1C] mb-6 scroll-mt-12">
             Today’s Thought
           </h2>
           <p className="font-serif text-lg italic text-[#1C1C1C]/50 leading-loose">
