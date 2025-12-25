@@ -13,7 +13,7 @@ export default function Newsletter() {
         {/* Masthead */}
         <header className="mb-12 md:mb-24 pt-8 px-8">
           <div className="flex flex-col items-center">
-            <h1 className="font-serif text-4xl md:text-6xl tracking-[-0.04em] mb-6 font-extrabold text-[#1C1C1C] relative text-center w-full">
+            <h1 className="font-serif text-4xl md:text-6xl tracking-[-0.04em] mb-6 font-bold text-[#1C1C1C] relative text-center w-full">
               <span className="text-[#B22E21]">NO BAD</span> NEWS
             </h1>
             
