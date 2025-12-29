@@ -126,7 +126,7 @@ export default function Newsletter() {
             </li>
             <li className="group">
               <a href="#tips" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
-                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">DROPS</span>
+                <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">DESIGN</span>
                 <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A Rockefeller Center flex you can steal at the bar</span>
               </a>
             </li>
@@ -277,7 +277,7 @@ export default function Newsletter() {
         {/* --- #tips (No Bad Drops) --- */}
         <Section 
           id="tips" 
-          title="No Bad Drops" 
+          title="No Bad Design" 
           subtitle="Small insights you can casually drop."
           mediaUrl="https://cdn.sanity.io/images/06qtbc6i/production/d9913e7dbe18fb4f07bd13f96365cb963748fae0-1800x2400.jpg?w=3000&fm=webp&fit=max&auto=format"
           mediaAlt="Nikolas Bentel Studio"
@@ -285,7 +285,7 @@ export default function Newsletter() {
            {/* PASTE TEXT HERE */}
            {/* Note: I'm combining the Drops content with the Design content here since Tips/Drops was requested and Design was omitted from the list, but design image was cool. User asked for specific IDs. I'll use the Design content here as 'Tips' or just use the Rockefeller content. Let's use the Design content as it has an image and looks better for the 'media' example. */}
            <p className="mb-6">
-              This week’s obsession is <a href="https://www.nikolasbentelstudio.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#B22E21] transition-colors decoration-[rgba(26,26,26,0.1)] underline-offset-4 text-[#1C1C1C]">Nikolas Bentel Studio</a>.
+              This week’s obsession is <a href="https://www.nikolasbentelstudio.com/" target="_blank" rel="noopener noreferrer" className="underline text-[#B22E21] hover:text-[#96261c] transition-colors decoration-[#B22E21]/30 underline-offset-4">Nikolas Bentel Studio</a>.
             </p>
             <p className="mb-6">
               He pulls digital objects into the real world - desktop folders, UI windows, system icons - and turns them into physical products. Laptop cases that look like software panels. Bags that feel like pop-ups.
