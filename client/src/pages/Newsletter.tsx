@@ -285,7 +285,7 @@ export default function Newsletter() {
            {/* PASTE TEXT HERE */}
            {/* Note: I'm combining the Drops content with the Design content here since Tips/Drops was requested and Design was omitted from the list, but design image was cool. User asked for specific IDs. I'll use the Design content here as 'Tips' or just use the Rockefeller content. Let's use the Design content as it has an image and looks better for the 'media' example. */}
            <p className="mb-6">
-              This week’s obsession is Nikolas Bentel Studio.
+              This week’s obsession is <a href="https://www.nikolasbentelstudio.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#B22E21] transition-colors decoration-[rgba(26,26,26,0.1)] underline-offset-4 text-[#1C1C1C]">Nikolas Bentel Studio</a>.
             </p>
             <p className="mb-6">
               He pulls digital objects into the real world - desktop folders, UI windows, system icons - and turns them into physical products. Laptop cases that look like software panels. Bags that feel like pop-ups.
