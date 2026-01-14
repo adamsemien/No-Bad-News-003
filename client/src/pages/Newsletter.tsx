@@ -155,16 +155,22 @@ export default function Newsletter() {
           <div className="prose prose-neutral max-w-[600px] mx-auto font-body text-[#1C1C1C] text-[17px] leading-[1.6]">
             {/* PASTE TEXT HERE */}
             <p className="mb-6">
-              I’ve built companies, helped shape brands, and thrown more nights than I can count. But the only thing that’s ever really driven me is the moment someone feels something because of a room, a song, a dish, or a person they just met. <strong>Goosebumps have always been the goal.</strong>
+              Every year the holidays come and go. A new year starts, and we’re given this quiet moment to reset - or at least reconsider what we want to focus on. Some people do Dry January. Others commit to workouts. For me, this year has been about something a little less obvious.
             </p>
             <p className="mb-6">
-              I love beautiful things. I love music, food, people in their element. I love discovering something special and sharing it with the right person at the right time - that look on their face when you know you just showed them something they didn’t know they needed.
+              I’ve never been big on social media. I don’t share much. I repost when I’m tagged, but for the most part, I’ve always stayed quiet. For a long time, I told myself that building a personal brand felt vain - unnecessary. Lately, I’ve realized that was an easy excuse.
             </p>
             <p className="mb-6">
-              That’s why Chloe and I built No Bad Company. And this - No Bad News - is the extension of that instinct. A weekly drop of what I’m paying attention to, who I’m learning from, and the details I think are worth your time.
+              When your life and work revolve around creating experiences and connecting people, choosing not to share your perspective isn’t humility - it’s absence. And absence doesn’t make anything better. Staying quiet doesn’t mean you don’t have a point of view. It just means you’re opting out of contributing it.
+            </p>
+            <p className="mb-6">
+              I’m not saying I’m always right. I’m not saying the world is better if everyone listens to me. I am saying I now know my opinions matter - and there’s nothing wrong with sharing your voice when it’s honest and considered. It’s a piece of you. Why hide it?
+            </p>
+            <p className="mb-6">
+              Something I’ve been reminding myself lately: you’re not afraid of failure - you’re afraid of being seen failing. That’s ego. We want to look effortless, refined, composed. But the people who actually get better are the ones willing to look a little foolish in pursuit of something real.
             </p>
             <p>
-              I’m not here to perform. I’m here to share. Read it. Forward it. Or reply and tell me what I should be chasing next.
+              New year. Same me. Slightly louder.
             </p>
           </div>
         </section>
@@ -234,18 +240,26 @@ export default function Newsletter() {
         >
           {/* PASTE TEXT HERE */}
           <p className="mb-6">
-            The fastest way to level up any conversation at a party is to stop asking, “What do you do?”
+            A great host knows how to read a room. They notice who hasn’t been pulled in yet and make introductions before things feel awkward.
           </p>
-          <p className="mb-6">Try this instead:</p>
-          <ul className="list-disc pl-5 mb-6 space-y-4 marker:text-[#B22E21]">
-            <li>“What keeps you busy during the day?”</li>
-          </ul>
           <p className="mb-6">
-            It’s broader. It’s softer. And it lets people answer however they want - career, creative projects, family, fitness, building something on the side. The energy shifts instantly.
+            But not every room has someone doing that work.
           </p>
-          <p>
-            Work can feel like a label.<br/>
-            Busy feels like a story.
+          <p className="mb-6">
+            So here’s a move I’ve learned to trust - at work events, parties, anywhere you’re walking into a room and don’t quite know where to land.
+          </p>
+          <p className="mb-6">
+            If you’re unsure who to talk to, look for two people already in conversation.
+          </p>
+          <p className="mb-6">
+            It’s the easiest place to enter without forcing anything. There’s already energy there. You’re not interrupting a moment or trying to carry a conversation on your own - you’re joining something that’s already moving.
+          </p>
+          <p className="mb-6">
+            I’ve met some of my best collaborators and friends this way. Not by working the room, but by paying attention to it.
+          </p>
+          <p className="mb-6">
+            Good hosting isn’t about being the loudest or the smoothest person there.
+            It’s about knowing how to step in - and when to let things unfold naturally.
           </p>
         </Section>
 
@@ -259,19 +273,39 @@ export default function Newsletter() {
         >
           {/* PASTE TEXT HERE */}
           <p className="mb-6">
-            Where the hell are you, Frank?
+            I miss the old Kanye.
           </p>
           <p className="mb-6">
-            But this week I went back to “Strawberry Swing” by Frank Ocean off Nostalgia, Ultra, and yeah… it still hits. Hard.
+            If you’re close to Chloe or me, you know we both love Kanye West. And before anyone jumps there - I’m not talking politics or headlines or anything else he’s done or said. I’m talking strictly about the music.
           </p>
-          <p className="mb-4">
-            Mood: reflective, wide-open, slightly unraveled
+          <p className="mb-6">
+            I wouldn’t let him babysit my kids (that I don’t have), but he’s undeniably one of the greatest creative geniuses of our generation.
           </p>
-          <div className="mt-8">
-             <a href="https://www.youtube.com/watch?v=G7wcRZWRDdw" className="bg-[#B22E21] text-white font-sans font-medium py-4 px-12 hover:bg-[#96261c] transition-colors no-underline tracking-wide shadow-none inline-block">
-               Listen on YouTube
-             </a>
-          </div>
+          <p className="mb-6">
+            There’s one project we keep coming back to: Runaway - the long-form film that accompanies My Beautiful Dark Twisted Fantasy. It’s about 30 minutes, stitched together from the album, and it’s still one of the most ambitious music projects ever released.
+          </p>
+          <p className="mb-6">
+            Two moments always get me.<br/>
+            One - the scene where he’s playing “Power” live on the MPC. It’s raw and physical, a reminder that this all starts with hands on a machine.<br/>
+            Two - the dinner scene during “Runaway,” where he’s wearing that tuxedo jacket. I don’t know why, but I’ve wanted that jacket in my arsenal ever since.
+          </p>
+          <p className="mb-6">
+            The visuals are cohesive. The mixes are unreal. But more than anything, Kanye tells a story here - one that we find ourselves coming back to, year after year.
+          </p>
+          <p className="mb-6">
+            Chloe and I revisit this at least once a year, and every time we do, something new clicks. A transition. A choice. A feeling that lands differently depending on where we’re at.
+          </p>
+          <p className="mb-6">
+            Who would I be not to share?
+          </p>
+          <p className="mb-6">
+            Start here:<br/>
+            Kanye West - Runaway (the full film)<br/>
+            <a href="https://www.youtube.com/watch?v=Jg5wkZ-dJXA&list=RDJg5wkZ-dJXA&start_radio=1" className="underline text-[#B22E21] hover:text-[#96261c] transition-colors decoration-[#B22E21]/30 underline-offset-4">https://www.youtube.com/watch?v=Jg5wkZ-dJXA&list=RDJg5wkZ-dJXA&start_radio=1</a>
+          </p>
+          <p>
+            Sit with it. No multitasking.
+          </p>
         </Section>
 
         {/* --- #tips (No Bad Drops) --- */}
