@@ -178,7 +178,7 @@ export default function Newsletter() {
         {/* --- #people (No Bad Company) --- */}
         <Section 
           id="people" 
-          title="No Bad Company" 
+          title="No Bad People" 
           subtitle="A spotlight of beautiful people from our community."
           mediaUrl={communitySpotlightImage}
           mediaAlt="Community Spotlight"
