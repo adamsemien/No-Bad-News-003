@@ -1,0 +1,112 @@
+You are editing my No Bad News newsletter code/content in Replit.
+
+Goal:
+- Update the newsletter by replacing the text inside the existing sections with the exact “LOCKED COPY” provided below.
+- Do not change any layout, styling, HTML structure, IDs, class names, or components - only replace the text content inside each section.
+- Preserve headings exactly as they exist in the code (ex: “Editor’s Note”, “No Bad Hosting”, “No Bad Music”).
+- If a section already exists, replace its body copy with the LOCKED COPY.
+- If you see older drafts of these same sections, overwrite them completely.
+- Replace any em dashes with spaced hyphens " - ".
+- Keep links as plain URLs (do not shorten).
+- Do not add extra adjectives, do not rewrite. Use the text verbatim.
+
+========================
+NEWSLETTER 002 - REPLACEMENTS
+========================
+
+SECTION: "Editor’s Note"
+REPLACE BODY WITH THIS LOCKED COPY:
+
+Every year the holidays come and go. A new year starts, and we’re given this quiet moment to reset - or at least reconsider what we want to focus on. Some people do Dry January. Others commit to workouts. For me, this year has been about something a little less obvious.
+
+I’ve never been big on social media. I don’t share much. I repost when I’m tagged, but for the most part, I’ve always stayed quiet. For a long time, I told myself that building a personal brand felt vain - unnecessary. Lately, I’ve realized that was an easy excuse.
+
+When your life and work revolve around creating experiences and connecting people, choosing not to share your perspective isn’t humility - it’s absence. And absence doesn’t make anything better. Staying quiet doesn’t mean you don’t have a point of view. It just means you’re opting out of contributing it.
+
+I’m not saying I’m always right. I’m not saying the world is better if everyone listens to me. I am saying I now know my opinions matter - and there’s nothing wrong with sharing your voice when it’s honest and considered. It’s a piece of you. Why hide it?
+
+Something I’ve been reminding myself lately: you’re not afraid of failure - you’re afraid of being seen failing. That’s ego. We want to look effortless, refined, composed. But the people who actually get better are the ones willing to look a little foolish in pursuit of something real.
+
+New year. Same me. Slightly louder.
+
+
+SECTION: "No Bad Hosting" (Newsletter 002)
+REPLACE BODY WITH THIS LOCKED COPY:
+
+The fastest way to make someone feel welcome is simple:
+make sure they have a drink.
+
+I can’t tell you how many times I’ve walked into a friend’s house and wasn’t offered anything. No cocktail. No water. Nothing. It’s wild.
+
+I host friends at my place all the time - part of why Yellow House became what it is - and I always offer a drink. Especially with new guests. If someone asks what I have, I don’t list options. I just ask, “What do you like?” and surprise them with something simple.
+
+If someone doesn’t drink, no problem - want a joint?
+If you want a mocktail, I’ve got you there too.
+
+The point isn’t alcohol. It’s intention.
+
+You don’t need to be a mixologist. Anyone can make a good drink. Learn a few basics, get a decent shaker, and suddenly people feel taken care of. A solid Old Fashioned goes a long way. Short on time? Batch margaritas. Just use fresh juice if you can - it makes a world of difference.
+
+Good hosting isn’t about impressing people.
+It’s about making them feel settled the moment they arrive.
+
+If you want to learn the fundamentals, Cocktail Codex is a great place to start.
+(Leave my affiliate link placeholder intact if it exists.)
+
+
+========================
+NEWSLETTER 003 - REPLACEMENTS
+========================
+
+SECTION: "No Bad Music" (Newsletter 003)
+REPLACE BODY WITH THIS LOCKED COPY:
+
+I miss the old Kanye.
+
+If you’re close to Chloe or me, you know we both love Kanye West. And before anyone jumps there - I’m not talking politics or headlines or anything else he’s done or said. I’m talking strictly about the music.
+
+I wouldn’t let him babysit my kids (that I don’t have), but he’s undeniably one of the greatest creative geniuses of our generation.
+
+There’s one project we keep coming back to: Runaway - the long-form film that accompanies My Beautiful Dark Twisted Fantasy. It’s about 30 minutes, stitched together from the album, and it’s still one of the most ambitious music projects ever released.
+
+Two moments always get me.
+One - the scene where he’s playing “Power” live on the MPC. It’s raw and physical, a reminder that this all starts with hands on a machine.
+Two - the dinner scene during “Runaway,” where he’s wearing that tuxedo jacket. I don’t know why, but I’ve wanted that jacket in my arsenal ever since.
+
+The visuals are cohesive. The mixes are unreal. But more than anything, Kanye tells a story here - one that we find ourselves coming back to, year after year.
+
+Chloe and I revisit this at least once a year, and every time we do, something new clicks. A transition. A choice. A feeling that lands differently depending on where we’re at.
+
+Who would I be not to share?
+
+Start here:
+Kanye West - Runaway (the full film)
+https://www.youtube.com/watch?v=Jg5wkZ-dJXA&list=RDJg5wkZ-dJXA&start_radio=1
+
+Sit with it. No multitasking.
+
+
+SECTION: "No Bad Hosting" (Newsletter 003)
+REPLACE BODY WITH THIS LOCKED COPY:
+
+A great host knows how to read a room. They notice who hasn’t been pulled in yet and make introductions before things feel awkward.
+
+But not every room has someone doing that work.
+
+So here’s a move I’ve learned to trust - at work events, parties, anywhere you’re walking into a room and don’t quite know where to land.
+
+If you’re unsure who to talk to, look for two people already in conversation.
+
+It’s the easiest place to enter without forcing anything. There’s already energy there. You’re not interrupting a moment or trying to carry a conversation on your own - you’re joining something that’s already moving.
+
+I’ve met some of my best collaborators and friends this way. Not by working the room, but by paying attention to it.
+
+Good hosting isn’t about being the loudest or the smoothest person there.
+It’s about knowing how to step in - and when to let things unfold naturally.
+
+
+FINAL CHECKS:
+- Confirm all four sections were updated.
+- Confirm no em dashes remain - only spaced hyphens.
+- Confirm links are intact.
+- Do not change anything else.
