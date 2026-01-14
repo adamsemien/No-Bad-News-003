@@ -2,6 +2,7 @@ import React from "react";
 import bannerImage from "@assets/banner_processed.jpg";
 import communitySpotlightImage from "@assets/spotlight_processed.png";
 import chloeGameImage from "@assets/chloegamestaff_1766515584240.jpeg";
+import kanyeImage from "@assets/kanyemy_1768434922443.jpg";
 
 // --- TEMPLATE CONFIGURATION ---
 // Editorial Template Component
@@ -277,8 +278,8 @@ export default function Newsletter() {
           id="music" 
           title="No Bad Music" 
           subtitle="One song. One mood. No skips."
-          mediaUrl="https://media.pitchfork.com/photos/5929adeb9d034d5c69bf444e/1:1/w_320,c_limit/084ee64d.jpg"
-          mediaAlt="Frank Ocean Nostalgia Ultra"
+          mediaUrl={kanyeImage}
+          mediaAlt="Kanye West My Beautiful Dark Twisted Fantasy"
         >
           {/* PASTE TEXT HERE */}
           <p className="mb-6">
