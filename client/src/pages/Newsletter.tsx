@@ -204,20 +204,29 @@ export default function Newsletter() {
         >
           {/* PASTE TEXT HERE */}
           <p className="mb-6">
-            I come from a Cajun family of cooks and restaurant owners. My family ran a BBQ spot in Houston called Lockwood Inn from 1928 to 1996 before it burned down. My grandmother was a Cajun caterer. My mom made the best gumbo I’ve ever had - and everyone who’s ever eaten it agrees.
+            Anthony Bourdain is my favorite writer.
           </p>
           <p className="mb-6">
-            This is the gumbo I grew up on. The one people still ask about years later. The one that shows up at holidays, late nights, and when it really matters.
+            Not because he used big words or tried to sound smart — but because he didn’t. He had this rare ability to make you feel every word, every place he visited, every late night, every bad decision, every perfect meal. Nothing ever felt performative. It felt lived.
           </p>
-          <p className="mb-8">
-            I finally filmed it.
+          <p className="mb-6">
+            Bourdain understood kitchens. He understood cooks. He understood what it’s like to grind, to mess up, to rebuild, to find meaning in unlikely places. You can feel that in his writing. It’s simple, direct, and incredibly effective. Emotional without trying to be.
           </p>
-          <ul className="list-none space-y-4 mb-6 pl-0">
-            <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">VIDEO</span> <a href="https://www.youtube.com/shorts/TftOIelM-j8" className="text-[#1C1C1C] hover:text-[#B22E21] transition-colors decoration-[rgba(26,26,26,0.1)] underline underline-offset-4">Watch on YouTube</a></li>
-            <li><span className="text-[#B22E21] font-bold mr-2 text-xs uppercase tracking-wider">RECIPE</span> <span className="text-[#1C1C1C] hover:text-[#B22E21] cursor-pointer transition-colors decoration-[rgba(26,26,26,0.1)] underline underline-offset-4">Read full recipe + ingredients</span></li>
-          </ul>
+          <p className="mb-6">
+            If you haven’t read Kitchen Confidential, I can’t recommend it enough — especially the audiobook, which he narrates himself. Hearing him tell those stories in his own voice makes it hit differently. It’s raw, funny, honest, and still somehow comforting.
+          </p>
+          <p className="mb-6">
+            He left a lasting mark on food, travel, and culture — and an incredible legacy. I still haven’t been able to bring myself to watch Roadrunner. It feels like the end of a chapter I’m not ready to close.
+          </p>
+          <p className="mb-6">
+            I recently gave Kitchen Confidential to my buddy Mitch and he texted me a few days later saying it was addicting. That checks out.
+          </p>
+          <p className="mb-6">
+            Start here:<br/>
+            🎧 Kitchen Confidential audiobook – <a href="#" className="underline text-[#B22E21] hover:text-[#96261c] transition-colors decoration-[#B22E21]/30 underline-offset-4">[affiliate link here]</a>
+          </p>
           <p>
-            This isn’t a “twist” on gumbo. It’s the real thing. Take your time with it.
+            Take your time with it. It stays with you.
           </p>
         </Section>
         
