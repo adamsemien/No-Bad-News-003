@@ -85,7 +85,7 @@ export default function Newsletter() {
             <div className="w-full max-w-[400px] flex flex-col items-center sm:items-start pl-0 sm:pl-12">
               <div className="w-20 h-[1px] bg-[#1C1C1C] mb-6"></div>
               <div className="flex items-center gap-4 text-[#1C1C1C]/60 font-sans text-xs tracking-wide uppercase py-1 font-light">
-                <span className="opacity-80">Issue 001</span>
+                <span className="opacity-80">Issue 003</span>
                 <span className="opacity-40">•</span>
                 <span className="opacity-80">Friday Morning</span>
               </div>
