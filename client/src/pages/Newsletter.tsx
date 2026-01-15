@@ -116,31 +116,31 @@ export default function Newsletter() {
             <li className="group">
               <a href="#food" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">FOOD</span>
-                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">My family’s Cajun gumbo recipe - finally on video</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">The 8-Hour Trap: Why Cassoulet is the ultimate weekend project</span>
               </a>
             </li>
             <li className="group">
               <a href="#hosting" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">HOSTING</span>
-                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A hosting move that instantly upgrades conversation</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">The Drink Rule: The fastest way to make a guest feel settled</span>
               </a>
             </li>
             <li className="group">
               <a href="#tips" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">DESIGN</span>
-                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">A Rockefeller Center flex you can steal at the bar</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Oren John: Stripping the jargon out of design strategy</span>
               </a>
             </li>
             <li className="group">
               <a href="#music" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">MUSIC</span>
-                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Frank Ocean “Strawberry Swing” - still undefeated</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Dijon: The Producer of the Year you need to hear</span>
               </a>
             </li>
             <li className="group">
               <a href="#plans" className="flex gap-4 w-full no-underline hover:opacity-80 transition-opacity">
                 <span className="shrink-0 font-sans text-xs font-bold text-[#B22E21] tracking-wider w-20 pt-1.5">PLANS</span>
-                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Chloe's Game returns this September</span>
+                <span className="group-hover:text-[#B22E21] transition-colors border-b border-transparent group-hover:border-[#B22E21]/20">Chloe’s Game: Poker returns to East Austin this September</span>
               </a>
             </li>
           </ul>
